@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - nuvens
+  - LevelController
+  - scoreRing
+  - life
+  - killPoint
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,8 +19,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - chao
+  - Player
   - 
   - 
   - 
@@ -41,4 +46,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ForeGround
+    uniqueID: 2477664989
+    locked: 0
+  - name: Enemy
+    uniqueID: 1483591359
+    locked: 0
+  - name: Scenario
+    uniqueID: 505275375
+    locked: 0
+  - name: Items
+    uniqueID: 3747958683
+    locked: 0
+  - name: Player
+    uniqueID: 4215722781
     locked: 0

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIController : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class UIController : MonoBehaviour
     }
 
     public void Play(){
-        //SceneManager.LoadScene(1);
-        Debug.Log("GAME INICIADO!");
+        SceneManager.LoadScene(1);
+       
     }
 }
