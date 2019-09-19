@@ -14,6 +14,10 @@ public class Player : MonoBehaviour
     //
     public AudioClip ringSound;
     public AudioClip heartSound;
+    public AudioClip deathSound;
+    public AudioClip jumpSound;
+
+    
     AudioSource audio;
 
     //Variavel que guarda a velocidade do personagem
@@ -109,6 +113,7 @@ public class Player : MonoBehaviour
         {
 
             respawn();
+            audio.PlayOneShot(deathSound);
             anim.SetTrigger("respawn");
 
         }
@@ -124,26 +129,30 @@ public class Player : MonoBehaviour
 
         //pega o valor negativo, e faz o modulo
         anim.SetFloat("Velocidade", Mathf.Abs(h));
+        
 
         rb.velocity = new Vector2(h * maxSpeed, rb.velocity.y);
 
-       
+      
 
         if (h > 0 && !facingRight)
         {
 
+           
             Flip();
 
         }
         else if (h < 0 && facingRight)
         {
-
+           
             Flip();
         }
 
         if (jump)
         {
 
+            
+            audio.PlayOneShot(jumpSound);
             rb.AddForce(new Vector2(0, jumpForce));
             jump = false;
         }
@@ -187,10 +196,12 @@ public class Player : MonoBehaviour
     {
         if (other.CompareTag("Enemy"))
         {
+            
             morrer();
+
         }
 
-         if (other.CompareTag("scoreRing"))
+        if (other.CompareTag("scoreRing"))
         {
             audio.PlayOneShot(ringSound);
             rings++;
