@@ -1,0 +1,3312 @@
+fileFormatVersion: 2
+guid: 78c8c60acf972ab4e9b83bab9f746766
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: IronMan_ArmorModel35_0
+    21300002: IronMan_ArmorModel35_1
+    21300004: IronMan_ArmorModel35_2
+    21300006: IronMan_ArmorModel35_3
+    21300008: IronMan_ArmorModel35_4
+    21300010: IronMan_ArmorModel35_5
+    21300012: IronMan_ArmorModel35_6
+    21300014: IronMan_ArmorModel35_7
+    21300016: IronMan_ArmorModel35_8
+    21300018: IronMan_ArmorModel35_9
+    21300020: IronMan_ArmorModel35_10
+    21300022: IronMan_ArmorModel35_11
+    21300024: IronMan_ArmorModel35_12
+    21300026: IronMan_ArmorModel35_13
+    21300028: IronMan_ArmorModel35_14
+    21300030: IronMan_ArmorModel35_15
+    21300032: IronMan_ArmorModel35_16
+    21300034: IronMan_ArmorModel35_17
+    21300036: IronMan_ArmorModel35_18
+    21300038: IronMan_ArmorModel35_19
+    21300040: IronMan_ArmorModel35_20
+    21300042: IronMan_ArmorModel35_21
+    21300044: IronMan_ArmorModel35_22
+    21300046: IronMan_ArmorModel35_23
+    21300048: IronMan_ArmorModel35_24
+    21300050: IronMan_ArmorModel35_25
+    21300052: IronMan_ArmorModel35_26
+    21300054: IronMan_ArmorModel35_27
+    21300056: IronMan_ArmorModel35_28
+    21300058: IronMan_ArmorModel35_29
+    21300060: IronMan_ArmorModel35_30
+    21300062: IronMan_ArmorModel35_31
+    21300064: IronMan_ArmorModel35_32
+    21300066: IronMan_ArmorModel35_33
+    21300068: IronMan_ArmorModel35_34
+    21300070: IronMan_ArmorModel35_35
+    21300072: IronMan_ArmorModel35_36
+    21300074: IronMan_ArmorModel35_37
+    21300076: IronMan_ArmorModel35_38
+    21300078: IronMan_ArmorModel35_39
+    21300080: IronMan_ArmorModel35_40
+    21300082: IronMan_ArmorModel35_41
+    21300084: IronMan_ArmorModel35_42
+    21300086: IronMan_ArmorModel35_43
+    21300088: IronMan_ArmorModel35_44
+    21300090: IronMan_ArmorModel35_45
+    21300092: IronMan_ArmorModel35_46
+    21300094: IronMan_ArmorModel35_47
+    21300096: IronMan_ArmorModel35_48
+    21300098: IronMan_ArmorModel35_49
+    21300100: IronMan_ArmorModel35_50
+    21300102: IronMan_ArmorModel35_51
+    21300104: IronMan_ArmorModel35_52
+    21300106: IronMan_ArmorModel35_53
+    21300108: IronMan_ArmorModel35_54
+    21300110: IronMan_ArmorModel35_55
+    21300112: IronMan_ArmorModel35_56
+    21300114: IronMan_ArmorModel35_57
+    21300116: IronMan_ArmorModel35_58
+    21300118: IronMan_ArmorModel35_59
+    21300120: IronMan_ArmorModel35_60
+    21300122: IronMan_ArmorModel35_61
+    21300124: IronMan_ArmorModel35_62
+    21300126: IronMan_ArmorModel35_63
+    21300128: IronMan_ArmorModel35_64
+    21300130: IronMan_ArmorModel35_65
+    21300132: IronMan_ArmorModel35_66
+    21300134: IronMan_ArmorModel35_67
+    21300136: IronMan_ArmorModel35_68
+    21300138: IronMan_ArmorModel35_69
+    21300140: IronMan_ArmorModel35_70
+    21300142: IronMan_ArmorModel35_71
+    21300144: IronMan_ArmorModel35_72
+    21300146: IronMan_ArmorModel35_73
+    21300148: IronMan_ArmorModel35_74
+    21300150: IronMan_ArmorModel35_75
+    21300152: IronMan_ArmorModel35_76
+    21300154: IronMan_ArmorModel35_77
+    21300156: IronMan_ArmorModel35_78
+    21300158: IronMan_ArmorModel35_79
+    21300160: IronMan_ArmorModel35_80
+    21300162: IronMan_ArmorModel35_81
+    21300164: IronMan_ArmorModel35_82
+    21300166: IronMan_ArmorModel35_83
+    21300168: IronMan_ArmorModel35_84
+    21300170: IronMan_ArmorModel35_85
+    21300172: IronMan_ArmorModel35_86
+    21300174: IronMan_ArmorModel35_87
+    21300176: IronMan_ArmorModel35_88
+    21300178: IronMan_ArmorModel35_89
+    21300180: IronMan_ArmorModel35_90
+    21300182: IronMan_ArmorModel35_91
+    21300184: IronMan_ArmorModel35_92
+    21300186: IronMan_ArmorModel35_93
+    21300188: IronMan_ArmorModel35_94
+    21300190: IronMan_ArmorModel35_95
+    21300192: IronMan_ArmorModel35_96
+    21300194: IronMan_ArmorModel35_97
+    21300196: IronMan_ArmorModel35_98
+    21300198: IronMan_ArmorModel35_99
+    21300200: IronMan_ArmorModel35_100
+    21300202: IronMan_ArmorModel35_101
+    21300204: IronMan_ArmorModel35_102
+    21300206: IronMan_ArmorModel35_103
+    21300208: IronMan_ArmorModel35_104
+    21300210: IronMan_ArmorModel35_105
+    21300212: IronMan_ArmorModel35_106
+    21300214: IronMan_ArmorModel35_107
+    21300216: IronMan_ArmorModel35_108
+    21300218: IronMan_ArmorModel35_109
+    21300220: IronMan_ArmorModel35_110
+    21300222: IronMan_ArmorModel35_111
+    21300224: IronMan_ArmorModel35_112
+    21300226: IronMan_ArmorModel35_113
+    21300228: IronMan_ArmorModel35_114
+    21300230: IronMan_ArmorModel35_115
+    21300232: IronMan_ArmorModel35_116
+    21300234: IronMan_ArmorModel35_117
+    21300236: IronMan_ArmorModel35_118
+    21300238: IronMan_ArmorModel35_119
+    21300240: IronMan_ArmorModel35_120
+    21300242: IronMan_ArmorModel35_121
+    21300244: IronMan_ArmorModel35_122
+    21300246: IronMan_ArmorModel35_123
+    21300248: IronMan_ArmorModel35_124
+    21300250: IronMan_ArmorModel35_125
+    21300252: IronMan_ArmorModel35_126
+    21300254: IronMan_ArmorModel35_127
+    21300256: IronMan_ArmorModel35_128
+    21300258: IronMan_ArmorModel35_129
+    21300260: IronMan_ArmorModel35_130
+    21300262: IronMan_ArmorModel35_131
+    21300264: IronMan_ArmorModel35_132
+    21300266: IronMan_ArmorModel35_133
+    21300268: IronMan_ArmorModel35_134
+    21300270: IronMan_ArmorModel35_135
+    21300272: IronMan_ArmorModel35_136
+    21300274: IronMan_ArmorModel35_137
+    21300276: IronMan_ArmorModel35_138
+    21300278: IronMan_ArmorModel35_139
+    21300280: IronMan_ArmorModel35_140
+    21300282: IronMan_ArmorModel35_141
+    21300284: IronMan_ArmorModel35_142
+    21300286: IronMan_ArmorModel35_143
+    21300288: IronMan_ArmorModel35_144
+    21300290: IronMan_ArmorModel35_145
+    21300292: IronMan_ArmorModel35_146
+    21300294: IronMan_ArmorModel35_147
+    21300296: IronMan_ArmorModel35_148
+    21300298: IronMan_ArmorModel35_149
+    21300300: IronMan_ArmorModel35_150
+    21300302: IronMan_ArmorModel35_151
+    21300304: IronMan_ArmorModel35_152
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 946
+        width: 128
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc4aa7c52270bc4cbb648b8fa85d97b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1142
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90981a1a94629ff4db29bde217499beb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_2
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 903
+        width: 124
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b1671e0f505024f83b16ba4a403c4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1117
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3f645b59fe6a045aa21cf00dc78a5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_4
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1060
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2923822bafdf5484ebe2f1a511280e79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_5
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1123
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d857777209b6fa4491c05e154648f11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_6
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 1080
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3cf445724d1ccf4d964eeec5d44a5ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_7
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1080
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1794750993f19684fa158e201e105dfc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_8
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 1070
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a244cab8b9777174fabc1d311d416231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_9
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1080
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d79426c30d8a64a92a54f2ed52d387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_10
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 990
+        width: 142
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd6b64e08a744947989f24a665d1a96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_11
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1049
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb339e538c71ba4b8f7b7dec71da06e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1027
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eff1b07cdd7c8c44ba428f6f45b28567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 1005
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c54e2bda7b9a734798532830b05f314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_14
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 853
+        width: 135
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd53058f3f895747838d39950824585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_15
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 884
+        width: 231
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52458dee0eca99748bfa449249aa34ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_16
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 871
+        width: 139
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d57e1b2492b8414a930e8f0176a3cc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_17
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 886
+        width: 237
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100dfc15d605b164ea09187121292c92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_18
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1015
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a590b419230d44c9c04a36e4e1ecfd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_19
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1008
+        width: 144
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7942f4ab1a32640b87f90861ccdade
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 964
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62275a8c60f3b8d49b20aace93149d8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_21
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 989
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8735d541bbd329549909ada81af3f4b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_22
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 935
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf32aec2ae4caaf4c89a710b54b42699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_23
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 964
+        width: 46
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd2d0371f22ba34ca42a89432345fef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 870
+        width: 151
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7d62d2fa339144aa7d08d98fd8308b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_25
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 910
+        width: 17
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155f14f8a57d2ad4098a37eea4c3701f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_26
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 929
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcecbd944ebcd9b4a9487a59f6f39b5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_27
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 616
+        width: 130
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba315541bb57f4643ba21f12db6bc8c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_28
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 625
+        width: 105
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4aff882d99a265469e98e4f8d06cbc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_29
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 620
+        width: 136
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf0cdc74b4b10043930391ab02c3d65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_30
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 621
+        width: 143
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f17b02f32118648b84b61b6d377cd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_31
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 620
+        width: 134
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f195c8032590e1479bfe1c89997617f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_32
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 650
+        width: 236
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edef99a139debd49ba6f4f13318da6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_33
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 638
+        width: 145
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ac169f814ea0640aabc25ececd1c0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_34
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 620
+        width: 142
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37833c683c7c3e34abdb53b6f659c76b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_35
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 377
+        width: 360
+        height: 454
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e33fc05cb21b64fa5968d7687078ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 479
+        width: 200
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fca61a46e77df14ba4789f49809ac9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_37
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 581
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd2b1f568bc2bd429026a2bb0b2f049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 506
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cded1fcb31169544d854eaa77f8de01b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_39
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 493
+        width: 222
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e25569ff713f8d4b95e508bc8b02588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_40
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 514
+        width: 188
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f406ef577779c98478298c92edd8a22e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_41
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 522
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30edc06605dade14e8e1dd1f9ace756c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_42
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 500
+        width: 458
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e760369103fb6184d8c22a124bd10a65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_43
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 357
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccdeba9334099b43a74931079318dda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 278
+        width: 192
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76699b12539529947a5444e853a24736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_45
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 278
+        width: 193
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce5497e320c75b48b3b0ce7ae58f2e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_46
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 278
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e441798da5d3a5c4d9a8370df6539091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_47
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 278
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63c456f706df71d4b99b4d0524ae301f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_48
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 287
+        width: 189
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5f4ee01238831448818f7208a5388a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_49
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 279
+        width: 198
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1aab842bcb3454293aad75812d8971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_50
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 9
+        width: 343
+        height: 251
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75561ad98ea8f6b4fbaaefaa91d892e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_51
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 9
+        width: 343
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac8fdf5a101b6749bab77623ae13bc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_52
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 135
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd3f776eb0b08b4fa9ac4177834c6e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_53
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 150
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54220eeaedb6984ca1de804d2139865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_54
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 150
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53969e7e7801b7e4aad68e96c9daa994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_55
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 173
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e046f68ae90905e409c2b7244d7a4ed1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_56
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 173
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f6e59fee6c110459865de5c694781c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_57
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 173
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f862b321a5e9ef42a6c43cbc49c2add
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_58
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 173
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20be1a587ebeac546a2768d591d8adac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_59
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 173
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885c7a74d937c4a4fafd983d3a44ca15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_60
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 173
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3422a98de6a441c4386b35b7600a3ea3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_61
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 173
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd322152f5ecd9843aafe1364d7ec8d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_62
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 170
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ea073e40490a854fb0a0ca0e72c75d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_63
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 173
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d385ac1718b7648a77a24d97cde40f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_64
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 173
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7ef5db3dfbaa643b9059f241f0f289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_65
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 173
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183f76be02b909a469f30abaedec5b30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_66
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 173
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd9890d0aafd8d4fb682a246e37056b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_67
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 173
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f735f23c1fe0c3a49975f2da7949fd2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_68
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 173
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a588be4194f594097aa13d57caa4fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_69
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 173
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725ab290a9742a44abab554a1f3e950c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_70
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 173
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f626a4c686bba4e8a7b77c328c8353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_71
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 173
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e1e60bb64a9a44f9675b555706bd44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_72
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 173
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff9fd1160884b747a94e3759fc460cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_73
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 173
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf98df6afe709d41b93cbfd175799a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_74
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 170
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6b134a825a9b04ba84f5a649bd89a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_75
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 3
+        width: 85
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5142de8081aa8d439b8dba3b377804f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_76
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 154
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7769431d7684d71488c9c47ef81437da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_77
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 154
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80569c35dab94a9428ba3de8ddf8352a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_78
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 154
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751eed0f3d9b341478d2dbcf6fd062a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_79
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 154
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14f98ef3c552b148a67b9610d55ad62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_80
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 154
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ffe13b217c78a4984211313a363f5b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_81
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 154
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8cefa49180001438dd5c02630bc1ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_82
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 154
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eacfcf896f7c284fb46f42167e04a40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_83
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 154
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285665a9b66398e4bb118b5f2ca85886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_84
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 154
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2105085df916b14b8d160b641bf0ba9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_85
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 151
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f3399598db9f849baac0b44ad38a15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_86
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 154
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f640c64413a2d2c48abc9fa15b3b9acd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_87
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 154
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0527d30c493fac94989fdcdfdab21dd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_88
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 154
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32657b66520b6e4caf14aec3e6cc1ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_89
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 154
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d5ded8abf60475409ac4bd3b0338a6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_90
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 154
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e70ac7c1dccf8643bf977cf14fe33f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_91
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 154
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662579bd93fb8de43aac59d89582361e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_92
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 154
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93d3125e1f4f1d445ab3815310b5119f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_93
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 154
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb5d2d9c2c52154d982aa295aeedb46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_94
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 135
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e336cc17a096da94fba173b26052ffc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_95
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 135
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff092fa26692ff4468c1655c575fdb91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_96
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 133
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184cffae4ddda48438c801dab78032c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_97
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 135
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e4c4122cd6e934c9ee22a5541bd7f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_98
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 135
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cdc8f0cf062a14488d8f0aad8f1afe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_99
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 135
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23040842b0a46b74d9ead50edf5aa0de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_100
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 132
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b063b087a37edc94784c7b8f5d40f69f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_101
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 135
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d846a58e93893d54e8a21a174a8acb05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_102
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 135
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027d966daadb1924cad771fbc99d7166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_103
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 135
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e69c051a739f14fa7188ba7799a827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_104
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 135
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c232501a701d04e8aa09745a4c1ed6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_105
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 135
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0319a559ac76b341942065de52110f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_106
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 135
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7fb7bf01e2d20468a8a2092fa5ebb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_107
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 135
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68fcd5683a2fde47a453336f11f8086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_108
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 135
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffdf48fd593c714880ca01bbd82f2b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_109
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 46
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c200f2b2607b8dc4f9b61909f8cc38a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_110
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 46
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131f039c242b76e4c8868a8aad0baa76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_111
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 46
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1917ae1d2bc5f5441b037705e2e66188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_112
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 46
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb5bf18901b46449ae9d2780bff2e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_113
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 56
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda85f8ff2cebc24987b696105fe6338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_114
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 54
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca953e736935c7540b4e395f48fc27eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_115
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 54
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 197cb1e8f846a584792a0b556b4cb987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_116
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 56
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00056e77aaf68d3409db4076e6ddae10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_117
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 56
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0189a5988c2f6174db248e6391fcdd53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_118
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 56
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9baff11c4eba0e40b798366a4b90e12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_119
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 53
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8e662abb5f7a044b80d5b53e6f6cc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_120
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 35
+        width: 122
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff0f3ad9dfb17a49b1ec498aa5d9652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_121
+      rect:
+        serializedVersion: 2
+        x: 1548
+        y: 38
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1e157b5475e0a48bdb7247001b5b4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_122
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 38
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef4c4343afa95540aa8929d5129009d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_123
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 38
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e884aefeb64784291b2ab5d2c5c339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_124
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 38
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe13300b4d64b84bac42231209d3e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_125
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 22
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f8f9a97c362754bb839f75a4625d91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_126
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 22
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8add0fa3da3e4448b73ee326861ee60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_127
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 22
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4667ed5eb08f04aadad76fceb5a9eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_128
+      rect:
+        serializedVersion: 2
+        x: 1562
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40c4bd65ad48324bbac8db82d2b159d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_129
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 19
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69b49b52df1b4d4f88915a0f37650c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_130
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 22
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b638528600d73a1498696534b41682e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_131
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce1b5f6657cbcf41b14c3ad2d2c0d50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_132
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 22
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94bdcc284e2e9c24293e511c44d49ff5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_133
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 20
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81dd9cc2540114c47bdc4d1ece0e8464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_134
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 19
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fb965fda53510439f8cff4544d9f38
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_135
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 22
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a7bb7ac0af74f4da61feaef67ff855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_136
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 22
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9cc983b9e98754c89758d3dac5d523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_137
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 22
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3354c61ca469941b28e6738ea72386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_138
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b2cb2cb42ac8e499c370e56c0f2fc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_139
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 22
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e610b73bc9b7b1c47a66a9b5d07dc2fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_140
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 3
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa08a2026ba2724d90de7c59910a164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_141
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6a93c4d5b348d41928c3fe834fe529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_142
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fb9e29551e92641ac10cda73463e68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_143
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 6
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c334b7fc3ee31c14b88da7e5af5aba86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_144
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60de78fe26d920478c4add642fdcf1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_145
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 3
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a664b528de95394baaef4300957b22c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_146
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c876cbf517b91f140a777cfa3ee2728f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_147
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69ff904bd12f509489157a5972f703bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_148
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d275cbc76b325b04aae960b859f9ca0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_149
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 6
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed79b7ed98e5a0146a7bc0a4738cca1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_150
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 6
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b6ba6c13b8fbd4c9c378096699fd57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_151
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 6
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b380b8d1796fe446ae26151e6d39bc2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IronMan_ArmorModel35_152
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 6
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c1cf22130f660449a551c0331f339d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ee751bd6c80178442af6504e5f225d7a
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
