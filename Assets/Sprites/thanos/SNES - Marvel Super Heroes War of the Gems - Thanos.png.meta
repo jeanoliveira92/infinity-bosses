@@ -1,7 +1,52 @@
 fileFormatVersion: 2
 guid: f475c07e684afd245850126c7a483fdf
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: SNES - Marvel Super Heroes War of the Gems - Thanos_0
+    21300002: SNES - Marvel Super Heroes War of the Gems - Thanos_1
+    21300004: SNES - Marvel Super Heroes War of the Gems - Thanos_2
+    21300006: SNES - Marvel Super Heroes War of the Gems - Thanos_3
+    21300008: SNES - Marvel Super Heroes War of the Gems - Thanos_4
+    21300010: SNES - Marvel Super Heroes War of the Gems - Thanos_5
+    21300012: SNES - Marvel Super Heroes War of the Gems - Thanos_6
+    21300014: SNES - Marvel Super Heroes War of the Gems - Thanos_7
+    21300016: SNES - Marvel Super Heroes War of the Gems - Thanos_8
+    21300018: SNES - Marvel Super Heroes War of the Gems - Thanos_9
+    21300020: SNES - Marvel Super Heroes War of the Gems - Thanos_10
+    21300022: SNES - Marvel Super Heroes War of the Gems - Thanos_11
+    21300024: SNES - Marvel Super Heroes War of the Gems - Thanos_12
+    21300026: SNES - Marvel Super Heroes War of the Gems - Thanos_13
+    21300028: SNES - Marvel Super Heroes War of the Gems - Thanos_14
+    21300030: SNES - Marvel Super Heroes War of the Gems - Thanos_15
+    21300032: SNES - Marvel Super Heroes War of the Gems - Thanos_16
+    21300034: SNES - Marvel Super Heroes War of the Gems - Thanos_17
+    21300036: SNES - Marvel Super Heroes War of the Gems - Thanos_18
+    21300038: SNES - Marvel Super Heroes War of the Gems - Thanos_19
+    21300040: SNES - Marvel Super Heroes War of the Gems - Thanos_20
+    21300042: SNES - Marvel Super Heroes War of the Gems - Thanos_21
+    21300044: SNES - Marvel Super Heroes War of the Gems - Thanos_22
+    21300046: SNES - Marvel Super Heroes War of the Gems - Thanos_23
+    21300048: SNES - Marvel Super Heroes War of the Gems - Thanos_24
+    21300050: SNES - Marvel Super Heroes War of the Gems - Thanos_25
+    21300052: SNES - Marvel Super Heroes War of the Gems - Thanos_26
+    21300054: SNES - Marvel Super Heroes War of the Gems - Thanos_27
+    21300056: SNES - Marvel Super Heroes War of the Gems - Thanos_28
+    21300058: SNES - Marvel Super Heroes War of the Gems - Thanos_29
+    21300060: SNES - Marvel Super Heroes War of the Gems - Thanos_30
+    21300062: SNES - Marvel Super Heroes War of the Gems - Thanos_31
+    21300064: SNES - Marvel Super Heroes War of the Gems - Thanos_32
+    21300066: SNES - Marvel Super Heroes War of the Gems - Thanos_33
+    21300068: SNES - Marvel Super Heroes War of the Gems - Thanos_34
+    21300070: SNES - Marvel Super Heroes War of the Gems - Thanos_35
+    21300072: SNES - Marvel Super Heroes War of the Gems - Thanos_36
+    21300074: SNES - Marvel Super Heroes War of the Gems - Thanos_37
+    21300076: SNES - Marvel Super Heroes War of the Gems - Thanos_38
+    21300078: SNES - Marvel Super Heroes War of the Gems - Thanos_39
+    21300080: SNES - Marvel Super Heroes War of the Gems - Thanos_40
+    21300082: SNES - Marvel Super Heroes War of the Gems - Thanos_41
+    21300084: SNES - Marvel Super Heroes War of the Gems - Thanos_42
+    21300086: SNES - Marvel Super Heroes War of the Gems - Thanos_43
+    21300088: SNES - Marvel Super Heroes War of the Gems - Thanos_44
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,7 +85,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,9 +114,920 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 486
+        width: 97
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53eced27f0a8634478845a19c6aa8b81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 486
+        width: 97
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e98805cd7075cef4da6b601db53ae3d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 486
+        width: 97
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 654e5d69aaeead147a10e4b5af8fd24b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 352
+        width: 71
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6c319bbcd1dfb47b04089e94bc46a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 352
+        width: 68
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6cc4917f2ee6145b60d288633dce75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_5
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 352
+        width: 60
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c472050c26abb9441ba8c22dc4ff5fc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 352
+        width: 71
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209a00460db01c24aa3511c4916b982d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 426
+        width: 32
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3abb29828e43940944dfda52605436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_8
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 352
+        width: 72
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3341dd14f5a4a4d49a1a72ac1367bccb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_9
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 352
+        width: 14
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea3a2d8ec2c91c43991081cd22de487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_10
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 352
+        width: 14
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4df9b8eefa9b4e4f90f43c3d6e41c97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_11
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 352
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f603eabc0f6bb6c4aba60a6ae989f25d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_12
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 396
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b073d323b6c11e848a6a6c0974a2fabc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 364
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73206a8d5b871e840ae7853fd811a49c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 352
+        width: 38
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf95ba22a561651419e64aa80806d623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 245
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931ac6d550bfebe448730ba41681e8f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_16
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 245
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e609baf8ea857438d59893dee89c10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_17
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 245
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d234e35669068e845b5066301ea59326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_18
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 245
+        width: 79
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88315c747a320424fb546b26abc960d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 245
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a0d38d2ef80c441b8bbeb4ff656c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_20
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 245
+        width: 94
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879d6389300c9df4a956d63f5179d108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_21
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 245
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2e068b5cd74b341a6fa4ad19c6d29b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 137
+        width: 64
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397f599422920684c9a37c588f5dcb8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_23
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 137
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab54b571185a8a47abd3e6105879a8a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_24
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 220
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63cc2c97581e4be44ad933242c6a9613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 220
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240416b5c9f8d7046b0cd067fbe8d677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_26
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 220
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd6d7d69bbf46d449de2f3147673eec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 220
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0338b96f4e6874bb5d98c2bd0cf2ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_28
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 220
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5cbedee8e57594494951ac72a999b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_29
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 220
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c5b02c3d9626848ad4509fc9508ecd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_30
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 220
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a7c5966a987ef45a7ecc4370335c9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_31
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 220
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 505169119766d644ba1ce85638696117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 137
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbdbb93ac0b1f5409b0fde90cbc7be9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_33
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 137
+        width: 106
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8c858a1f0996e4f897511643d68d68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_34
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 148
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e141da58bfb806744923f73773332fb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_35
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 148
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4495074c810336f4abd6d1bd2b362a7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_36
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 148
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18f442afc21ee44aa1f3a1be1a11907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_37
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 145
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1761016cf908fc940bc957c1a7437f6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_38
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 148
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c67d8bfdab8a2a4dbb1687e1e952757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_39
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 148
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0929b3bbdcd04954288e2857420f8d3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_40
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 146
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667d958ff170c0545a839f0cbeea5d3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_41
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 133
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a192777e0dc5a0d44b9b5efdd5dfc1fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 176
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f6cc3abefa5d54eb383f5108c84dad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 2
+        width: 176
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20b63e60aa888d489261d2a096ba954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SNES - Marvel Super Heroes War of the Gems - Thanos_44
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 2
+        width: 176
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc9d73a2a4f5f942870c7b792c2cc81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
