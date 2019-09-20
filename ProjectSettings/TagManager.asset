@@ -10,6 +10,8 @@ TagManager:
   - life
   - killPoint
   - Enemy
+  - SephirothMenuUI
+  - ShadowMenuUI
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - 
   - chao
   - Player
-  - 
+  - UI2
   - 
   - 
   - 

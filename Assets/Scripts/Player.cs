@@ -164,14 +164,7 @@ public class Player : MonoBehaviour
 
         //arrumando a posição do personagem para voltar ao inicio
         player.transform.position = spawnPoint.transform.position;
-        //--- feito isso para mudar a posição em z
-        //pois p player estava voltando invisivel do spawn
-        Vector3 novaPosicao = transform.position;
-        novaPosicao.z = 2f;
-
-
-        //passando a nova posição para o player.
-        player.transform.position = novaPosicao;
+     
 
     }
 

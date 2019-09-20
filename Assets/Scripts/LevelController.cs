@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class LevelController : MonoBehaviour
-{
+public class LevelController : MonoBehaviour {
 
     public static LevelController lc;
 
@@ -14,11 +14,9 @@ public class LevelController : MonoBehaviour
     public TextMeshProUGUI ring;
     // Start is called before the first frame update
 
-    void Start()
-    {
-        if (lc == null)
-        {
-            lc = GameObject.FindGameObjectWithTag("LevelController").GetComponent<LevelController>();
+    void Start () {
+        if (lc == null) {
+            lc = GameObject.FindGameObjectWithTag ("LevelController").GetComponent<LevelController> ();
 
         }
     }
@@ -27,33 +25,28 @@ public class LevelController : MonoBehaviour
 
     public float spawnDelay = 1.2f;
 
-    
- public IEnumerator RespawnPlayer()
-{
+    public IEnumerator RespawnPlayer () {
 
-    yield return new WaitForSeconds(spawnDelay);
-    Instantiate(player, spawnPoint.position, spawnPoint.rotation);
+        yield return new WaitForSeconds (spawnDelay);
+        Instantiate (player, spawnPoint.position, spawnPoint.rotation);
+
+    }
+
+    public void KillPlayer () {
+        Destroy (player.gameObject);
+        lc.StartCoroutine (lc.RespawnPlayer ());
+
+    }
+    // Update is called once per frame
+    void Update () {
+
+
+        life.SetText (shadow.life.ToString ());
+        ring.SetText (shadow.rings.ToString ());
+
+    }
+
+ 
+
 
 }
-
-public void KillPlayer()
-{
-     Destroy(player.gameObject);
-    lc.StartCoroutine(lc.RespawnPlayer());
-
-}
-// Update is called once per frame
-void Update()
-{
-
-    life.SetText(shadow.life.ToString());
-    ring.SetText(shadow.rings.ToString());
-
-}
-
-}
-
-
-
-
-
