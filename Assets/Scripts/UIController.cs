@@ -7,7 +7,6 @@ public class UIController : MonoBehaviour
 {
 
     public AudioSource backgroundSound; 
-    public GameObject IntroUI;
     public GameObject MainCanvas;
     public GameObject characterCanvas;
     public GameObject shadowUI;
@@ -16,33 +15,11 @@ public class UIController : MonoBehaviour
     private GameObject activeUI;
     private int charSelected = 1;
 
-    IEnumerator WaitAndMainMenu()
-    {
-        yield return new WaitForSeconds(3.0f);
-        backgroundSound.Play();
-        GameObject parent = IntroUI.transform.parent.gameObject;
-        MainCanvas.SetActive(true);
-        parent.SetActive(false); 
-    }
-    IEnumerator WaitAndIntroUnifei()
-    {
-        yield return new WaitForSeconds(3.0f);
-        GameObject unifei = IntroUI.transform.GetChild(2).gameObject;
-        unifei.SetActive(true);  
-        StartCoroutine("WaitAndMainMenu");
-    }
-    IEnumerator WaitAndIntroUnity()
-    {
-        yield return new WaitForSeconds(2f);
-        GameObject unity = IntroUI.transform.GetChild(1).gameObject;
-        unity.SetActive(true);  
-        StartCoroutine("WaitAndIntroUnifei");
 
-    }
     void Start()
     {
-        StartCoroutine("WaitAndIntroUnity");
-        backgroundSound = GetComponent<AudioSource>();
+        
+        MainCanvas.SetActive(true);
         //backgroundSound.Play();
       
     }
