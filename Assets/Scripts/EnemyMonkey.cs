@@ -6,10 +6,10 @@ public class EnemyMonkey : MonoBehaviour
 
 {
 
-     public GameObject bullet;
-      public Transform spawnPoint;
-
-     
+    public GameObject bullet;
+    public Transform spawnPoint;
+    
+        
     // Start is called before the first frame update
     void Start()
     {
@@ -35,4 +35,6 @@ public class EnemyMonkey : MonoBehaviour
 
        
     }
+
+   
 }
