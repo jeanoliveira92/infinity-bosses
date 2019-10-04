@@ -21,6 +21,7 @@ TextureImporter:
     21300032: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_16
     21300034: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_17
     21300036: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_18
+    21300038: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_19
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -478,6 +479,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a35e58cf6650df348acbeee612035fd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_19
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 35
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759a6951c39bfca439599dcd0f496a20
       vertices: []
       indices: 
       edges: []

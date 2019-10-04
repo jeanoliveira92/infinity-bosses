@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyFishController : MonoBehaviour
+public class EnemyFishController : Enemy
 {
     
     
@@ -52,7 +52,6 @@ public class EnemyFishController : MonoBehaviour
         StartCoroutine(Attack ());
 
     }
-
 
 
 }
