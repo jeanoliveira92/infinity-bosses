@@ -93,7 +93,7 @@ public class Player : MonoBehaviour
         }
 
         //Ataque corpo a corpo botão  "K"
-        if (Input.GetKeyDown(KeyCode.K))
+        if (Input.GetKeyDown(KeyCode.K) || Input.GetMouseButtonDown(0))
             attack();
 
         Vector2 tela = Camera.main.WorldToScreenPoint(transform.position);

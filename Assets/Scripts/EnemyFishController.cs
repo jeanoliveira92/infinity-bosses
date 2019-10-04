@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyFishController : MonoBehaviour
+public class EnemyFishController : Enemy
 {
     
     
@@ -15,9 +15,6 @@ public class EnemyFishController : MonoBehaviour
 
     //objeto da ponte
     public GameObject bridge;
-    
-    //Quantidade de vida do inimigo
-    public int health;
     
 
     void Awake()
@@ -56,12 +53,5 @@ public class EnemyFishController : MonoBehaviour
 
     }
 
-    //inimigo leva dano do player
-    private void takeDamage(int damage){
-        health -= damage;
-        if(health <= 0){
-            Destroy(gameObject);
-        }
-    }
 
 }
