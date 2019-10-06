@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - SephirothMenuUI
   - ShadowMenuUI
+  - monkeyBullet
   layers:
   - Default
   - TransparentFX

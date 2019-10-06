@@ -50,6 +50,17 @@ public class Player : MonoBehaviour
     //(como um objeto detector)
     public Transform groundCheck;
 
+    //utilizados para o ataque corpo a corpo
+    
+    public float meleerange;
+
+    public Transform meleePivot;
+
+    public int meleeDamage;
+    
+    //utilizados para ataque especial
+    public int especial = 0;
+
     // Use this for initialization
     void Start()
     {
@@ -81,6 +92,9 @@ public class Player : MonoBehaviour
 
         }
 
+        //Ataque corpo a corpo botão  "K"
+        if (Input.GetKeyDown(KeyCode.K) || Input.GetMouseButtonDown(0))
+            attack();
 
         Vector2 tela = Camera.main.WorldToScreenPoint(transform.position);
         if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height)
@@ -106,7 +120,7 @@ public class Player : MonoBehaviour
         {
 
             //se era a ultima vida e deu gameover
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("gameOver");
 
         }
         else
@@ -122,6 +136,18 @@ public class Player : MonoBehaviour
 
     }
 
+    private void attack(){
+        //animação de ataque
+        anim.SetTrigger("attack");
+        //verifica se existe algum collider dentro do raio de alcance e guarda em um vetor
+        Collider2D[] results = Physics2D.OverlapCircleAll(meleePivot.position, meleerange);
+        foreach(Collider2D c in results){
+           //se for um inimigo envia uma mensagem de dano
+            if(c.gameObject.CompareTag("Enemy")){
+                c.SendMessage("takeDamage", meleeDamage,SendMessageOptions.DontRequireReceiver);
+            }
+        }        
+    }
 
     void FixedUpdate()
     {
@@ -184,7 +210,6 @@ public class Player : MonoBehaviour
 
     }
 
-    //verificar se esta passando pelas moedas
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
