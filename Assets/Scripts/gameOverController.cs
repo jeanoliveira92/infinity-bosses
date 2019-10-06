@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class gameOverController : MonoBehaviour {
+
     public void restart () {
 
         SceneManager.LoadScene ("shadow");
