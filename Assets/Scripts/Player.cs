@@ -120,7 +120,7 @@ public class Player : MonoBehaviour
         {
 
             //se era a ultima vida e deu gameover
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("gameOver");
 
         }
         else
@@ -210,7 +210,6 @@ public class Player : MonoBehaviour
 
     }
 
-    //verificar se esta passando pelas moedas
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
