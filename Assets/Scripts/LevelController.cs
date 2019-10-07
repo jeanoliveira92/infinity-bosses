@@ -9,6 +9,10 @@ public class LevelController : MonoBehaviour {
     public GameObject inGameUI;
     public GameObject gameOverUI;
 
+    public camera cam;
+
+    public Transform c;
+
     public static LevelController lc;
 
     public Player shadow;
@@ -49,6 +53,8 @@ public class LevelController : MonoBehaviour {
 
         if (shadow.life == 0) {
 
+            cam.transform.position = c.transform.position;
+            cam.speed = 0.0f;
             inGameUI.SetActive (false);
             gameOverUI.SetActive (true);
 
