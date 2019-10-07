@@ -5,9 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class gameOverController : MonoBehaviour {
 
-    public void restart () {
+    public void restartShadow () {
 
-        SceneManager.LoadScene ("shadow");
+        SceneManager.LoadScene ("Shadow");
+
+    }
+
+     public void restartThanos () {
+
+        SceneManager.LoadScene ("Thanos");
+
+    }
+
+     public void restartSephiroth () {
+
+        SceneManager.LoadScene ("Sephiroth");
 
     }
 

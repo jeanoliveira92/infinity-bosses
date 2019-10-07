@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour {
 
+    public GameObject inGameUI;
+    public GameObject gameOverUI;
+
     public static LevelController lc;
 
     public Player shadow;
@@ -40,13 +43,41 @@ public class LevelController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-
+        gameOverUI.SetActive (false);
         life.SetText (shadow.life.ToString ());
         ring.SetText (shadow.rings.ToString ());
 
+        if (shadow.life == 0) {
+
+            inGameUI.SetActive (false);
+            gameOverUI.SetActive (true);
+
+        }
+
     }
 
- 
+    public void restartShadow () {
 
+        SceneManager.LoadScene ("Shadow");
+
+    }
+
+    public void restartThanos () {
+
+        SceneManager.LoadScene ("Thanos");
+
+    }
+
+    public void restartSephiroth () {
+
+        SceneManager.LoadScene ("Sephiroth");
+
+    }
+
+    public void backToMenu () {
+
+        SceneManager.LoadScene ("mainMenu");
+
+    }
 
 }

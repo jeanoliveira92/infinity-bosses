@@ -752,14 +752,51 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 87
-        y: 73
+        y: 71
         width: 59
-        height: 46
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -28.5, y: -22}
+        - {x: -16.5, y: -7}
+        - {x: -3.5, y: 5}
+        - {x: -2.5, y: 11}
+        - {x: 4.5, y: 12}
+        - {x: 7.5, y: 12}
+        - {x: 9.5, y: 19}
+        - {x: 13.5, y: 21}
+        - {x: 16.5, y: 24}
+        - {x: 20.5, y: 21}
+        - {x: 20.5, y: 24}
+        - {x: 24.5, y: 24}
+        - {x: 26.5, y: 22}
+        - {x: 26.5, y: 11}
+        - {x: 25.5, y: 10}
+        - {x: 25.5, y: 3}
+        - {x: 26.5, y: 0}
+        - {x: 24.5, y: -4}
+        - {x: 22.5, y: -4}
+        - {x: 22.5, y: -6}
+        - {x: 24.5, y: -12}
+        - {x: 27.5, y: -13}
+        - {x: 29.5, y: -15}
+        - {x: 29.5, y: -18}
+        - {x: 17.5, y: -18}
+        - {x: 17.5, y: -14}
+        - {x: 10.5, y: -14}
+        - {x: 9.5, y: -19}
+        - {x: 0.5, y: -19}
+        - {x: -0.5, y: -18}
+        - {x: -0.5, y: -16}
+        - {x: 10.5, y: -5}
+        - {x: 10.5, y: 4}
+        - {x: 6.5, y: 7}
+        - {x: 1.5, y: 4}
+        - {x: -2.5, y: 4}
+        - {x: -13.5, y: -7}
       tessellationDetail: 0
       bones: []
       spriteID: a7a21ea7e31d47346bc51110a2516fd2
@@ -772,9 +809,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 159
-        y: 74
+        y: 71
         width: 37
-        height: 58
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -792,9 +829,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 208
-        y: 75
+        y: 71
         width: 34
-        height: 59
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -812,9 +849,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 255
-        y: 76
+        y: 71
         width: 61
-        height: 45
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,9 +869,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 319
-        y: 65
+        y: 71
         width: 50
-        height: 53
+        height: 47
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

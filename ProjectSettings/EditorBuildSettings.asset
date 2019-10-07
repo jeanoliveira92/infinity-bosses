@@ -9,11 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/mainMenu.unity
     guid: 774fcf454d201eb47a3362346cf63b41
   - enabled: 1
-    path: Assets/Scenes/shadow.unity
+    path: Assets/Scenes/Shadow.unity
     guid: 63d9af30678e2ea498e516ad219aa1f0
   - enabled: 1
     path: Assets/Scenes/Thanos.unity
     guid: e42a8aeb7fd51074ca406dac8ba92416
+  - enabled: 1
+    path: Assets/Scenes/Sephiroth.unity
+    guid: e5d90c83050aa1040b31729434462d14
   - enabled: 1
     path: Assets/Scenes/gameOver.unity
     guid: e6358bb035e13fc4e90b0ff74180e0cd
