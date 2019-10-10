@@ -1,12 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
-public class Player : MonoBehaviour
-{
+public class Player : MonoBehaviour {
 
     //Declaração de variáveis
     public GameObject player;
@@ -17,7 +15,6 @@ public class Player : MonoBehaviour
     public AudioClip deathSound;
     public AudioClip jumpSound;
 
-    
     AudioSource audio;
 
     //Variavel que guarda a velocidade do personagem
@@ -44,158 +41,132 @@ public class Player : MonoBehaviour
     //variavel usada para verificar se o personagem esta no "chao"
     public bool noChao = false;
 
-
     //Guarda a posição do objeto que detecta 
     //a colisão do personagem com o chao 
     //(como um objeto detector)
     public Transform groundCheck;
 
     //utilizados para o ataque corpo a corpo
-    
+
     public float meleerange;
 
     public Transform meleePivot;
 
     public int meleeDamage;
-    
+
     //utilizados para ataque especial
     public int especial = 0;
 
     // Use this for initialization
-    void Start()
-    {
+    void Start () {
 
-        audio = GetComponent<AudioSource>();
+        audio = GetComponent<AudioSource> ();
 
-        rb = gameObject.gameObject.GetComponent<Rigidbody2D>();
+        rb = gameObject.gameObject.GetComponent<Rigidbody2D> ();
 
-        anim = gameObject.gameObject.GetComponent<Animator>();
+        anim = gameObject.gameObject.GetComponent<Animator> ();
 
         //componente checa se o player esta tocando o chao
-        groundCheck = gameObject.transform.Find("Chao");
-
+        groundCheck = gameObject.transform.Find ("Chao");
 
     }
 
-    private void Update()
-    {
+    private void Update () {
         //variavel boleana checa a posição do groundCheck. Se ele estiver em um objeto na layer
         // "chao", ele fica verdadeiro
-        noChao = Physics2D.Linecast(transform.position, groundCheck.position, 1 <<
-        LayerMask.NameToLayer("chao"));
+        noChao = Physics2D.Linecast (transform.position, groundCheck.position, 1 <<
+            LayerMask.NameToLayer ("chao"));
 
         //se for apertado o botao e se ele estiver no chao
-        if (Input.GetButtonDown("Jump") && noChao)
-        {
+        if (Input.GetButtonDown ("Jump") && noChao) {
             jump = true;
-            anim.SetTrigger("Pulou");
+            anim.SetTrigger ("Pulou");
 
         }
 
         //Ataque corpo a corpo botão  "K"
-        if (Input.GetKeyDown(KeyCode.K) || Input.GetMouseButtonDown(0))
-            attack();
+        if (Input.GetKeyDown (KeyCode.K) || Input.GetMouseButtonDown (0))
+            attack ();
 
-        Vector2 tela = Camera.main.WorldToScreenPoint(transform.position);
-        if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height)
-        {
-            if (gameOver == false)
-            {
-                morrer();
+        Vector2 tela = Camera.main.WorldToScreenPoint (transform.position);
+        if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height) {
+            if (gameOver == false) {
+                morrer ();
             }
-
 
         }
 
     }
 
-    void morrer()
-    {
+    void morrer () {
 
         //ação quando ele perde uma vida
         //vai ressurgir na tela no começo da fase
         //ou em checkpoint
         life--;
-        if (life == 0)
-        {
+        if (life == 0) {
 
             //se era a ultima vida e deu gameover
-            SceneManager.LoadScene(2);
+         
+            Destroy (player);
+
+        } else {
+
+            respawn ();
+            audio.PlayOneShot (deathSound);
+            anim.SetTrigger ("respawn");
 
         }
-        else
-        {
-
-            respawn();
-            audio.PlayOneShot(deathSound);
-            anim.SetTrigger("respawn");
-
-        }
-
-
 
     }
 
-    private void attack(){
+    private void attack () {
         //animação de ataque
-        anim.SetTrigger("attack");
+        anim.SetTrigger ("attack");
         //verifica se existe algum collider dentro do raio de alcance e guarda em um vetor
-        Collider2D[] results = Physics2D.OverlapCircleAll(meleePivot.position, meleerange);
-        foreach(Collider2D c in results){
-           //se for um inimigo envia uma mensagem de dano
-            if(c.gameObject.CompareTag("Enemy")){
-                c.SendMessage("takeDamage", meleeDamage,SendMessageOptions.DontRequireReceiver);
+        Collider2D[] results = Physics2D.OverlapCircleAll (meleePivot.position, meleerange);
+        foreach (Collider2D c in results) {
+            //se for um inimigo envia uma mensagem de dano
+            if (c.gameObject.CompareTag ("Enemy")) {
+                c.SendMessage ("takeDamage", meleeDamage, SendMessageOptions.DontRequireReceiver);
             }
-        }        
+        }
     }
 
-    void FixedUpdate()
-    {
-        float h = Input.GetAxisRaw("Horizontal");
+    void FixedUpdate () {
+        float h = Input.GetAxisRaw ("Horizontal");
 
         //pega o valor negativo, e faz o modulo
-        anim.SetFloat("Velocidade", Mathf.Abs(h));
-        
+        anim.SetFloat ("Velocidade", Mathf.Abs (h));
 
-        rb.velocity = new Vector2(h * maxSpeed, rb.velocity.y);
+        rb.velocity = new Vector2 (h * maxSpeed, rb.velocity.y);
 
-      
+        if (h > 0 && !facingRight) {
 
-        if (h > 0 && !facingRight)
-        {
+            Flip ();
 
-           
-            Flip();
+        } else if (h < 0 && facingRight) {
 
-        }
-        else if (h < 0 && facingRight)
-        {
-           
-            Flip();
+            Flip ();
         }
 
-        if (jump)
-        {
+        if (jump) {
 
-            
-            audio.PlayOneShot(jumpSound);
-            rb.AddForce(new Vector2(0, jumpForce));
+            audio.PlayOneShot (jumpSound);
+            rb.AddForce (new Vector2 (0, jumpForce));
             jump = false;
         }
 
     }
 
-    public void respawn()
-    {
+    public void respawn () {
 
         //arrumando a posição do personagem para voltar ao inicio
         player.transform.position = spawnPoint.transform.position;
-     
 
     }
 
-    void Flip()
-    {
+    void Flip () {
         //virando pra direita
         facingRight = !facingRight;
 
@@ -210,37 +181,29 @@ public class Player : MonoBehaviour
 
     }
 
-    //verificar se esta passando pelas moedas
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Enemy"))
-        {
-            
-            morrer();
+    private void OnTriggerEnter2D (Collider2D other) {
+        if (other.CompareTag ("Enemy")) {
+
+            morrer ();
 
         }
 
-        if (other.CompareTag("scoreRing"))
-        {
-            audio.PlayOneShot(ringSound);
+        if (other.CompareTag ("scoreRing")) {
+            audio.PlayOneShot (ringSound);
             rings++;
 
-
-
-            other.gameObject.SetActive(false);
-            Destroy(other);
+            other.gameObject.SetActive (false);
+            Destroy (other);
         }
 
-        if (other.CompareTag("life"))
-        {
+        if (other.CompareTag ("life")) {
 
-            if (life < 3)
-            {
+            if (life < 3) {
 
                 life++;
-                audio.PlayOneShot(heartSound);
-                other.gameObject.SetActive(false);
-                Destroy(other);
+                audio.PlayOneShot (heartSound);
+                other.gameObject.SetActive (false);
+                Destroy (other);
 
             }
         }
@@ -248,4 +211,3 @@ public class Player : MonoBehaviour
     }
 
 }
-
