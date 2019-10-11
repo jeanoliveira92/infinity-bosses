@@ -8,7 +8,6 @@ public class LevelController : MonoBehaviour {
 
     public GameObject inGameUI;
     public GameObject gameOverUI;
-
     public camera cam;
 
     public Transform c;
