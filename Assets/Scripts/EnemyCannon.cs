@@ -11,18 +11,20 @@ public class EnemyCannon : Enemy {
 
     public GameObject bullet;
     public Transform spawnPoint;
-
+    
     private Animator anim;
      private Rigidbody2D rb;
     void Awake () {
 
         rb = GetComponent<Rigidbody2D> ();
         anim = GetComponent<Animator> ();
+       
     }
 
     void update() {
 
-            Instantiate (bullet, spawnPoint.position, spawnPoint.rotation);
+        Instantiate (bullet, spawnPoint.position, spawnPoint.rotation);
+
 
     }
 

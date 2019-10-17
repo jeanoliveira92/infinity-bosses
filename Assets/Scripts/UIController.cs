@@ -65,7 +65,7 @@ public class UIController : MonoBehaviour
     IEnumerator WaitToEnterScene()
     {
         yield return new WaitForSeconds(8.8f);
-        SceneManager.LoadScene(charSelected);
+        SceneManager.LoadScene("shadow");
     }
     IEnumerator WaitToShowLogo()
     {

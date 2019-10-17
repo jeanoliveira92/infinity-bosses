@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour {
 
+    public GameObject inGameUI;
+    public GameObject gameOverUI;
+    public camera cam;
+
+    public Transform c;
+
     public static LevelController lc;
 
     public Player shadow;
@@ -40,13 +46,43 @@ public class LevelController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-
+        gameOverUI.SetActive (false);
         life.SetText (shadow.life.ToString ());
         ring.SetText (shadow.rings.ToString ());
 
+        if (shadow.life == 0) {
+
+            cam.transform.position = c.transform.position;
+            cam.speed = 0.0f;
+            inGameUI.SetActive (false);
+            gameOverUI.SetActive (true);
+
+        }
+
     }
 
- 
+    public void restartShadow () {
 
+        SceneManager.LoadScene ("Shadow");
+
+    }
+
+    public void restartThanos () {
+
+        SceneManager.LoadScene ("Thanos");
+
+    }
+
+    public void restartSephiroth () {
+
+        SceneManager.LoadScene ("Sephiroth");
+
+    }
+
+    public void backToMenu () {
+
+        SceneManager.LoadScene ("mainMenu");
+
+    }
 
 }
