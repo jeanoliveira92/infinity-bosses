@@ -38,6 +38,7 @@ public class Player : MonoBehaviour {
     private Animator anim;
 
     private bool jump = false;
+    private bool dodge = false;
     //variavel usada para verificar se o personagem esta no "chao"
     public bool noChao = false;
 
@@ -80,7 +81,24 @@ public class Player : MonoBehaviour {
         //se for apertado o botao e se ele estiver no chao
         if (Input.GetButtonDown ("Jump") && noChao) {
             jump = true;
+            dodge = false;
             anim.SetTrigger ("Pulou");
+
+        }
+
+        //esquiva
+
+        if ((Input.GetKeyDown (KeyCode.J) || Input.GetKeyDown (KeyCode.E)) && (noChao)) {
+
+            if (!facingRight) {
+
+                Flip ();
+
+            }
+            jump = false;
+            dodge = true;
+            anim.SetTrigger ("esquivou");
+            rb.AddForce (new Vector2 (-1500, 200));
 
         }
 
@@ -88,13 +106,7 @@ public class Player : MonoBehaviour {
         if (Input.GetKeyDown (KeyCode.K) || Input.GetMouseButtonDown (0))
             attack ();
 
-        Vector2 tela = Camera.main.WorldToScreenPoint (transform.position);
-        if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height) {
-            if (gameOver == false) {
-                morrer ();
-            }
-
-        }
+       
 
     }
 
@@ -107,7 +119,7 @@ public class Player : MonoBehaviour {
         if (life == 0) {
 
             //se era a ultima vida e deu gameover
-         
+
             Destroy (player);
 
         } else {
@@ -183,7 +195,7 @@ public class Player : MonoBehaviour {
 
     private void OnTriggerEnter2D (Collider2D other) {
         if (other.CompareTag ("Enemy")) {
-            
+
             morrer ();
 
         }
