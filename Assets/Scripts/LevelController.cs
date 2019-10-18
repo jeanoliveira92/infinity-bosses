@@ -52,10 +52,8 @@ public class LevelController : MonoBehaviour {
 
         if (shadow.life == 0) {
 
-            cam.transform.position = c.transform.position;
-            cam.speed = 0.0f;
-            inGameUI.SetActive (false);
-            gameOverUI.SetActive (true);
+            
+            SceneManager.LoadScene ("gameOver");
 
         }
 
