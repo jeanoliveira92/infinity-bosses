@@ -2435,7 +2435,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3069fb884273f284cbe92e14cb9d992c, type: 3}
   m_Name: 
@@ -5053,6 +5053,7 @@ GameObject:
   - component: {fileID: 928583526}
   - component: {fileID: 928583525}
   - component: {fileID: 928583524}
+  - component: {fileID: 928583529}
   m_Layer: 0
   m_Name: Knucles
   m_TagString: Enemy
@@ -5121,7 +5122,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06772113, y: 0}
+  m_Offset: {x: -0.123892784, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5132,7 +5133,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.3229423, y: 1.125}
+  m_Size: {x: 0.93971443, y: 1.125}
   m_EdgeRadius: 0
 --- !u!50 &928583527
 Rigidbody2D:
@@ -5203,6 +5204,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &928583529
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928583522}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.1875, y: 1.125}
+    newSize: {x: 1.1875, y: 1.125}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.1875, y: 1.125}
+  m_EdgeRadius: 0
 --- !u!1 &987957345
 GameObject:
   m_ObjectHideFlags: 0
@@ -10439,6 +10466,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4413326896691083239, guid: 2ebd519dd0047a942855000de75b9077,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413326896691083239, guid: 2ebd519dd0047a942855000de75b9077,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083237, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -10494,16 +10531,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4413326896691083239, guid: 2ebd519dd0047a942855000de75b9077,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4413326896691083239, guid: 2ebd519dd0047a942855000de75b9077,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083234, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: spawnPoint
@@ -10527,7 +10554,7 @@ PrefabInstance:
     - target: {fileID: 4413326896691083234, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: meleeDamage
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083234, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
