@@ -9,13 +9,16 @@ public class camera : MonoBehaviour {
     public float speedV = 1.0f;
 
     void LateUpdate () {
-        Vector3 v3 = transform.position;
-        v3.y = Mathf.Lerp (v3.y, target.position.y, Time.deltaTime * speed);
-        transform.position = v3;
+
+        if (target != null) {
+
+            Vector3 v3 = transform.position;
+            v3.y = Mathf.Lerp (v3.y, target.position.y, Time.deltaTime * speed);
+            transform.position = v3;
+        }
 
         transform.Translate (Vector3.right * speed * Time.deltaTime);
 
-        
     }
 
 }

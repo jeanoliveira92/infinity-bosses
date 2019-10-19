@@ -106,8 +106,6 @@ public class Player : MonoBehaviour {
         if (Input.GetKeyDown (KeyCode.K) || Input.GetMouseButtonDown (0))
             attack ();
 
-       
-
     }
 
     void morrer () {
@@ -148,26 +146,29 @@ public class Player : MonoBehaviour {
     void FixedUpdate () {
         float h = Input.GetAxisRaw ("Horizontal");
 
-        //pega o valor negativo, e faz o modulo
-        anim.SetFloat ("Velocidade", Mathf.Abs (h));
+     
+            //pega o valor negativo, e faz o modulo
+            anim.SetFloat ("Velocidade", Mathf.Abs (h));
 
-        rb.velocity = new Vector2 (h * maxSpeed, rb.velocity.y);
+            rb.velocity = new Vector2 (h * maxSpeed, rb.velocity.y);
 
-        if (h > 0 && !facingRight) {
+            if (h > 0 && !facingRight) {
 
-            Flip ();
+                Flip ();
 
-        } else if (h < 0 && facingRight) {
+            } else if (h < 0 && facingRight) {
 
-            Flip ();
-        }
+                Flip ();
+            }
 
-        if (jump) {
+            if (jump) {
 
-            audio.PlayOneShot (jumpSound);
-            rb.AddForce (new Vector2 (0, jumpForce));
-            jump = false;
-        }
+                audio.PlayOneShot (jumpSound);
+                rb.AddForce (new Vector2 (0, jumpForce));
+                jump = false;
+            }
+
+        
 
     }
 
