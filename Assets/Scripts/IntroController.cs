@@ -8,6 +8,7 @@ public class IntroController : MonoBehaviour
 
     public GameObject IntroUI;
     private int charSelected = 1;
+    
     IEnumerator WaitToEnterScene()
     {
         yield return new WaitForSeconds(3.0f);

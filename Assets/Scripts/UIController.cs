@@ -6,7 +6,6 @@ using UnityEngine.SceneManagement;
 public class UIController : MonoBehaviour
 {
 
-    public AudioSource backgroundSound; 
     public GameObject MainCanvas;
     public GameObject characterCanvas;
     public GameObject shadowUI;
@@ -14,26 +13,30 @@ public class UIController : MonoBehaviour
     public GameObject thanosUI;
     private GameObject activeUI;
     public GameObject controlerUI;
-    private int charSelected = 1;
-
-
-    void Start()
-    {
-        
-        MainCanvas.SetActive(true);
-        //backgroundSound.Play();
-      
-    }
-
-    // Update is called once per frame
+    private int charSelected = 1 ;
     void Update()
     {
-       // if (Input.GetMouseButtonDown (0) && controlerUI)
-         //   attack ();
-         Debug.Log(controlerUI.activeSelf);
+        // SE A O UI CONTROLER ESTIVER ATIVO
+       if (controlerUI.activeInHierarchy){
+           // SE O TEXT DE CONTINUE ESTIVER ATIVO
+            if(controlerUI.transform.GetChild(0)
+                .gameObject.transform.GetChild(0)
+                .gameObject.transform.GetChild(2)
+                .gameObject.activeInHierarchy){
+                    // SE CLICAR COM O BOTÃO DIREITO DO MOUSE
+                    if (Input.GetMouseButtonDown(0)){
+                        StartCoroutine("WaitAndEnterScene");
+                    }
+                } 
+        }
     }
-    IEnumerator WaitAndPLay()
-    {
+
+    /*  ---------------------- START MENU ---------------------- */
+    void Start(){
+        MainCanvas.SetActive(true);
+    }    
+
+    IEnumerator WaitAndPLay(){
         yield return new WaitForSeconds(0.5f);
         characterCanvas.SetActive(true);
         MainCanvas.SetActive(false);
@@ -43,68 +46,73 @@ public class UIController : MonoBehaviour
         StartCoroutine("WaitAndPLay");
     }
 
+    /*  ---------------------- MENU SELEÇÃO PERSONAGEM ---------------------- */
     public void SelectCharacter(int id){
-        
         charSelected = id;
-
+        activeUI.SetActive(false);
         if(id == 1){
             shadowUI.SetActive(true);
-            thanosUI.SetActive(false);
-            sephirothUI.SetActive(false);
             activeUI = shadowUI;
         }else if(id == 2){
             thanosUI.SetActive(true);
-            sephirothUI.SetActive(false);
-            shadowUI.SetActive(false);
             activeUI = thanosUI;
         }else if(id == 3){
             sephirothUI.SetActive(true);
-            thanosUI.SetActive(false);
-            shadowUI.SetActive(false);
             activeUI = sephirothUI;
         }
-
     }
-    IEnumerator WaitToEnterControlerScene()
-    {
-        yield return new WaitForSeconds(8.8f);
-        characterCanvas.setActive(false);
-        controlerUI.SetActive(true);
-    }
-
-    private void enterScene(){
-        SceneManager.LoadScene(charSelected);
-    }
-    
-    IEnumerator WaitToShowLogo()
-    {
-        yield return new WaitForSeconds(3.0f);
-        
-        GameObject logo = activeUI.transform.GetChild(5).gameObject;
-        logo.SetActive(true);       
-    }
-    IEnumerator WaitToEnterAnimationScene()
-    {
-        yield return new WaitForSeconds(3.0f);
-        StartCoroutine("WaitToShowLogo");
-        GameObject img = activeUI.transform.GetChild(4).gameObject;
-        img.SetActive(true);  
-    }
-
-    public void ShowControlerUI(){
-
-    }
-
     public void StageSelect(){
-        StartCoroutine("WaitToEnterControlerScene");
-        StartCoroutine("WaitToEnterAnimationScene");
+        StartCoroutine("StageSelectIE");
         
-        GameObject bg = activeUI.transform.GetChild(1).gameObject;
-        GameObject label = activeUI.transform.GetChild(2).gameObject;
-        GameObject texto = activeUI.transform.GetChild(3).gameObject;
+        activeUI.transform.GetChild(1).gameObject.SetActive(false);
+        activeUI.transform.GetChild(2).gameObject.SetActive(false);
+        activeUI.transform.GetChild(3).gameObject.SetActive(false);
+    }
+    IEnumerator StageSelectIE()
+    {
+        // APARECER A ANIMAÇÃO DO PERSONAGEM
+        yield return new WaitForSeconds(3.0f);
+        activeUI.transform.GetChild(4).gameObject.SetActive(true);
+        
+        // APARECER A ANIMAÇÃO DO  NOME DO PERSONAGEM
+        yield return new WaitForSeconds(3.0f);
+        activeUI.transform.GetChild(5).gameObject.SetActive(true);
+        
+        // IR PARA A EXIBIÇÃO DOS CONTROLES 
+        yield return new WaitForSeconds(3.0f);
+        characterCanvas.SetActive(false);
+        controlerUI.SetActive(true);
 
-        bg.SetActive(false);
-        label.SetActive(false);
-        texto.SetActive(false);
+        // EXIBIR A TELA DE CONTROLE
+        yield return new WaitForSeconds(5.0f);
+        controlerUI.transform.GetChild(0)
+                .gameObject.transform.GetChild(0)
+                .gameObject.transform.GetChild(2)
+                .gameObject.SetActive(true);
+    }
+
+    IEnumerator WaitAndEnterScene(){
+        
+        controlerUI.transform.GetChild(0)
+                .gameObject.transform.GetChild(0)
+                .gameObject.transform.GetChild(0)
+                .gameObject.GetComponent<Animator>().SetBool("end", true);
+
+        controlerUI.transform.GetChild(0)
+                .gameObject.transform.GetChild(0)
+                .gameObject.transform.GetChild(1)
+                .gameObject.GetComponent<Animator>().SetBool("end", true);
+
+        controlerUI.transform.GetChild(0)
+                .gameObject.transform.GetChild(0)
+                .gameObject.transform.GetChild(2)
+                .gameObject.GetComponent<Animator>().SetBool("end", true);
+
+        yield return new WaitForSeconds(2.0f);
+        enterScene();
+    }
+
+    public void enterScene(){
+        SceneManager.LoadScene(charSelected);
     }
 }
