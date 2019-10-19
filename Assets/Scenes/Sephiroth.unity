@@ -5154,6 +5154,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sephiroth
       objectReference: {fileID: 0}
+    - target: {fileID: 5538189026790859803, guid: 43000c05d48fddc4f9f993fcf916364c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5538189026790859801, guid: 43000c05d48fddc4f9f993fcf916364c,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5318,11 +5323,20 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0.121
       objectReference: {fileID: 0}
+    - target: {fileID: 140722257, guid: 43000c05d48fddc4f9f993fcf916364c, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5538189026790859805, guid: 43000c05d48fddc4f9f993fcf916364c,
         type: 3}
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6fcd3b51cf706aa46b9ccd41118df02d, type: 2}
+    - target: {fileID: 5538189027286078746, guid: 43000c05d48fddc4f9f993fcf916364c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43000c05d48fddc4f9f993fcf916364c, type: 3}
 --- !u!1001 &5760358179856169298
