@@ -13,6 +13,7 @@ public class UIController : MonoBehaviour
     public GameObject sephirothUI;
     public GameObject thanosUI;
     private GameObject activeUI;
+    public GameObject controlerUI;
     private int charSelected = 1;
 
 
@@ -27,7 +28,9 @@ public class UIController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+       // if (Input.GetMouseButtonDown (0) && controlerUI)
+         //   attack ();
+         Debug.Log(controlerUI.activeSelf);
     }
     IEnumerator WaitAndPLay()
     {
@@ -62,11 +65,17 @@ public class UIController : MonoBehaviour
         }
 
     }
-    IEnumerator WaitToEnterScene()
+    IEnumerator WaitToEnterControlerScene()
     {
         yield return new WaitForSeconds(8.8f);
+        characterCanvas.setActive(false);
+        controlerUI.SetActive(true);
+    }
+
+    private void enterScene(){
         SceneManager.LoadScene(charSelected);
     }
+    
     IEnumerator WaitToShowLogo()
     {
         yield return new WaitForSeconds(3.0f);
@@ -78,12 +87,16 @@ public class UIController : MonoBehaviour
     {
         yield return new WaitForSeconds(3.0f);
         StartCoroutine("WaitToShowLogo");
-        
         GameObject img = activeUI.transform.GetChild(4).gameObject;
         img.SetActive(true);  
     }
+
+    public void ShowControlerUI(){
+
+    }
+
     public void StageSelect(){
-        StartCoroutine("WaitToEnterScene");
+        StartCoroutine("WaitToEnterControlerScene");
         StartCoroutine("WaitToEnterAnimationScene");
         
         GameObject bg = activeUI.transform.GetChild(1).gameObject;
