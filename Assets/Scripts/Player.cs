@@ -203,6 +203,8 @@ public class Player : MonoBehaviour {
 
         }
 
+        //coleta de items
+
         if (other.CompareTag ("scoreRing")) {
             audio.PlayOneShot (ringSound);
             rings++;
@@ -223,6 +225,29 @@ public class Player : MonoBehaviour {
             }
         }
 
+        if (other.CompareTag ("diamant")) {
+
+            anim.SetTrigger ("diamant");
+            other.gameObject.SetActive (false);
+            Destroy (other);
+
+        }
     }
+
+    void OnCollisionEnter2D (Collision2D col) {
+
+        if (col.gameObject.name.Equals ("Plataform"))
+            this.transform.parent = col.transform;
+
+    }
+
+    //continuar na plataforma
+    void OnCollisionExit2D (Collision2D col) {
+
+        if (col.gameObject.name.Equals ("Plataform"))
+            this.transform.parent = null;
+
+    }
+
 
 }

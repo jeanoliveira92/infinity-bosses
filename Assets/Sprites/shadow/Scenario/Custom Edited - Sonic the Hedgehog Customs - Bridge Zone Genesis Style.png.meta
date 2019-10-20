@@ -17,6 +17,8 @@ TextureImporter:
     21300024: Custom Edited - Sonic the Hedgehog Customs - Bridge Zone Genesis Style_12
     21300026: Custom Edited - Sonic the Hedgehog Customs - Bridge Zone Genesis Style_13
     21300028: Custom Edited - Sonic the Hedgehog Customs - Bridge Zone Genesis Style_14
+    21300030: Custom Edited - Sonic the Hedgehog Customs - Bridge Zone Genesis Style_15
+    21300032: Custom Edited - Sonic the Hedgehog Customs - Bridge Zone Genesis Style_16
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -387,13 +389,53 @@ TextureImporter:
         width: 55
         height: 63
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: d19678b974a821743a464d3d15a83432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Bridge Zone Genesis Style_15
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 283
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a24872d36ea19c4394255083ef724ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Bridge Zone Genesis Style_16
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 281
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c3f8447305fad46810faa4eea85265
       vertices: []
       indices: 
       edges: []

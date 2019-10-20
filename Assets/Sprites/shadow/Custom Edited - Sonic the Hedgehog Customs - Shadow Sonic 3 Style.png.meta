@@ -19,6 +19,18 @@ TextureImporter:
     21300028: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_14
     21300030: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_15
     21300032: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_16
+    21300034: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_17
+    21300036: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_18
+    21300038: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_19
+    21300040: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_20
+    21300042: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_21
+    21300044: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_22
+    21300046: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_23
+    21300048: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_24
+    21300050: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_25
+    21300052: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_26
+    21300054: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_27
+    21300056: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_28
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -429,13 +441,253 @@ TextureImporter:
         width: 28
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 22fc91e469d1bd74aa18e2a468d0665f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_17
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 948
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99906a85b8fc1e848824b50a9b61c414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 1131
+        width: 28
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a65229ba77624646969221b6a7bf4fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 926
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70518673f75f7c48b01cf41dcf8e712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_20
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 926
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6bbf9f6de9f114abf4564bae425aa2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_21
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 926
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c338c81d21adf04cab17009115ae27a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_22
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 926
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36139f9c5ea4e2c429cd75077f53cf0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_23
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 926
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d231042dd479ec745bf40ad02b52b77a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_24
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 925
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba91508886b2a8408711768929556d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_25
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 926
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ebfe84789190468a996eb1d312407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_26
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 926
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee510e080fd22547addaa05c478ab5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_27
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 926
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc8de0721e956545867203ddfa240ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom Edited - Sonic the Hedgehog Customs - Shadow Sonic 3 Style_28
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 926
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb9653ac6fd7a244b9569c151e92707
       vertices: []
       indices: 
       edges: []
