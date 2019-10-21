@@ -14,9 +14,10 @@ TagManager:
   - ShadowMenuUI
   - monkeyBullet
   - entergame
-  - stop
   - diamant
   - plataform
+  - JumpPad
+  - shoes
   layers:
   - Default
   - TransparentFX

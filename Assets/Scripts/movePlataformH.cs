@@ -4,14 +4,10 @@ using UnityEngine;
 
 public class movePlataformH : MonoBehaviour {
 
-    Rigidbody2D enemyRigidBody2D;
-    public int UnitsToMove = 2;
-    public float Speed = 200;
-    public bool _isFacingRight;
-    private float _startPos;
-    private float _endPos;
+    float dirX, moveSpeed = 3f;
+    bool moveRight = true;
 
-    public bool _moveRight = true;
+    public float pointOne, pointTwo;
 
     public GameObject cam;
     public GameObject cam2;
@@ -23,31 +19,17 @@ public class movePlataformH : MonoBehaviour {
         Physics2D.IgnoreCollision (cam2.GetComponent<Collider2D> (), GetComponent<Collider2D> ());
     }
 
-    public void Awake () {
-        enemyRigidBody2D = GetComponent<Rigidbody2D> ();
-        _startPos = transform.position.x;
-        _endPos = _startPos + UnitsToMove;
-        _isFacingRight = transform.localScale.x > 0;
-    }
-
     // Update is called once per frame
-    public void Update () {
+    void Update () {
+        if (transform.position.x > pointTwo)
+            moveRight = false;
+        if (transform.position.x < pointOne)
+            moveRight = true;
 
-        if (!_moveRight) {
-            enemyRigidBody2D.AddForce (Vector2.right * Speed * Time.deltaTime);
-            
-        }
-
-        if (enemyRigidBody2D.position.x >= _endPos)
-            _moveRight = true;
-
-        if (_moveRight) {
-            enemyRigidBody2D.AddForce (-Vector2.right * Speed * Time.deltaTime);
-           
-        }
-        if (enemyRigidBody2D.position.x <= _startPos)
-            _moveRight = false;
-
+        if (moveRight)
+            transform.position = new Vector2 (transform.position.x + moveSpeed * Time.deltaTime, transform.position.y);
+        else
+            transform.position = new Vector2 (transform.position.x - moveSpeed * Time.deltaTime, transform.position.y);
     }
 
 }

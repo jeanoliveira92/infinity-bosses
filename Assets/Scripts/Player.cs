@@ -232,22 +232,32 @@ public class Player : MonoBehaviour {
             Destroy (other);
 
         }
+
+        if (other.CompareTag ("shoes")) {
+
+            maxSpeed += (maxSpeed * 0.5f);
+            anim.SetTrigger ("shoes");
+            other.gameObject.SetActive (false);
+            Destroy (other);
+
+        }
+
+        if (other.CompareTag ("JumpPad")) {
+
+            anim.SetTrigger ("Pulou");
+            rb.AddForce (new Vector2 (0, jumpForce * 5));
+
+        }
     }
 
     void OnCollisionEnter2D (Collision2D col) {
-
         if (col.gameObject.name.Equals ("Plataform"))
             this.transform.parent = col.transform;
-
     }
 
-    //continuar na plataforma
     void OnCollisionExit2D (Collision2D col) {
-
         if (col.gameObject.name.Equals ("Plataform"))
             this.transform.parent = null;
-
     }
-
 
 }
