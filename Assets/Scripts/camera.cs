@@ -15,10 +15,12 @@ public class camera : MonoBehaviour {
             Vector3 v3 = transform.position;
             v3.y = Mathf.Lerp (v3.y, target.position.y, Time.deltaTime * speed);
             transform.position = v3;
+
+              transform.Translate (Vector3.right * speed * Time.deltaTime);
+
         }
 
-        transform.Translate (Vector3.right * speed * Time.deltaTime);
-
+     
     }
 
 }

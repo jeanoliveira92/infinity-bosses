@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movePlataformH : MonoBehaviour {
-
-    float moveSpeed = 3f;
-    bool moveRight = true;
+public class MovePlataformV : MonoBehaviour
+{ 
+    public float moveSpeed = 3f;
+    bool moveUp = true;
 
     public float pointOne, pointTwo;
 
@@ -21,15 +21,15 @@ public class movePlataformH : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (transform.position.x > pointTwo)
-            moveRight = false;
-        if (transform.position.x < pointOne)
-            moveRight = true;
+        if (transform.position.y > pointTwo)
+            moveUp = false;
+        if (transform.position.y < pointOne)
+            moveUp = true;
 
-        if (moveRight)
-            transform.position = new Vector2 (transform.position.x + moveSpeed * Time.deltaTime, transform.position.y);
+        if (moveUp)
+            transform.position = new Vector2 (transform.position.x , transform.position.y + moveSpeed * Time.deltaTime);
         else
-            transform.position = new Vector2 (transform.position.x - moveSpeed * Time.deltaTime, transform.position.y);
+            transform.position = new Vector2 (transform.position.x , transform.position.y-  moveSpeed * Time.deltaTime);
     }
 
 }
