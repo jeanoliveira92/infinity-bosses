@@ -51,6 +51,8 @@ public class LevelController : MonoBehaviour {
         ring.SetText (shadow.rings.ToString ());
 
         if (shadow.life == 0) {
+
+            
             SceneManager.LoadScene ("gameOver");
 
         }
