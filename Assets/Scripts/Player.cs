@@ -39,8 +39,6 @@ public class Player : MonoBehaviour {
 
     private bool jump = false;
     private bool dodge = false;
-
-    public float dodgeForce;
     //variavel usada para verificar se o personagem esta no "chao"
     public bool noChao = false;
 
@@ -91,14 +89,16 @@ public class Player : MonoBehaviour {
         //esquiva
 
         if ((Input.GetKeyDown (KeyCode.J) || Input.GetKeyDown (KeyCode.E)) && (noChao)) {
-            int i = 1;
-            if (!facingRight)
-                i = -i ;
-            
+
+            if (!facingRight) {
+
+                Flip ();
+
+            }
             jump = false;
             dodge = true;
             anim.SetTrigger ("esquivou");
-            rb.AddForce (new Vector2 (-dodgeForce * i, 250));
+            rb.AddForce (new Vector2 (-1500, 200));
 
         }
 
