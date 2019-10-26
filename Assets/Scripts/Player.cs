@@ -15,7 +15,7 @@ public class Player : MonoBehaviour {
     public AudioClip deathSound;
     public AudioClip jumpSound;
 
-    AudioSource audio;
+    private AudioSource audio;
 
     //Variavel que guarda a velocidade do personagem
     public float maxSpeed = 10;
