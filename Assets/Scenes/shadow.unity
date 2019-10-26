@@ -7503,7 +7503,7 @@ SpriteRenderer:
   m_Size: {x: 19.18, y: 12.98}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &674483718
@@ -25947,16 +25947,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4413326896691083239, guid: 2ebd519dd0047a942855000de75b9077,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4413326896691083239, guid: 2ebd519dd0047a942855000de75b9077,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083237, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -26012,6 +26002,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4413326896691083239, guid: 2ebd519dd0047a942855000de75b9077,
+        type: 3}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4413326896691083239, guid: 2ebd519dd0047a942855000de75b9077,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083234, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: spawnPoint
@@ -26020,7 +26020,7 @@ PrefabInstance:
     - target: {fileID: 4413326896691083234, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: maxSpeed
-      value: 3.4
+      value: 3.7
       objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083234, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
@@ -26040,7 +26040,7 @@ PrefabInstance:
     - target: {fileID: 4413326896691083234, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: jumpForce
-      value: 450
+      value: 550
       objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083235, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
