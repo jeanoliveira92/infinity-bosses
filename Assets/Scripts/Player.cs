@@ -39,6 +39,8 @@ public class Player : MonoBehaviour {
     public int meleeDamage;
     //utilizados para ataque especial
     public int especial = 0;
+
+    public float dodgeForce;
     // Use this for initialization
     private bool startWalkAfterRespawn = true;
     void Start () {
@@ -73,14 +75,14 @@ public class Player : MonoBehaviour {
             //esquiva
 
             if ((Input.GetKeyDown (KeyCode.J) || Input.GetKeyDown (KeyCode.E)) && (noChao)) {
-
+                int i = 1;
                 if (!facingRight) {
-                    Flip ();
+                    i = -i ;
                 }
                 jump = false;
                 dodge = true;
                 anim.SetTrigger ("esquivou");
-                rb.AddForce (new Vector2 (-1500, 200));
+                rb.AddForce (new Vector2 (-dodgeForce * i, 200));
             }
 
             //Ataque corpo a corpo botão  "K"
