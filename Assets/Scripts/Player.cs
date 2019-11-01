@@ -5,44 +5,60 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
+
     //Declaração de variáveis
     public GameObject player;
+
+    //
     public AudioClip ringSound;
     public AudioClip heartSound;
     public AudioClip deathSound;
     public AudioClip jumpSound;
-    private AudioSource audio;
+
+    AudioSource audio;
+
     //Variavel que guarda a velocidade do personagem
     public float maxSpeed = 10;
     //força de pulo
     public float jumpForce = 450;
     public int life = 3;
+
     public int rings = 0;
+
     public bool gameOver = false;
+
     private Rigidbody2D rb;
+
     public Transform spawnPoint;
+
     //usado para ver se o personagem esta virado 
     //para a direita e inverter quando o personagem virar de lado
     public bool facingRight = true;
+
     private Animator anim;
+
     private bool jump = false;
     private bool dodge = false;
     //variavel usada para verificar se o personagem esta no "chao"
     public bool noChao = false;
+
     //Guarda a posição do objeto que detecta 
     //a colisão do personagem com o chao 
     //(como um objeto detector)
     public Transform groundCheck;
+
     //utilizados para o ataque corpo a corpo
+
     public float meleerange;
+
     public Transform meleePivot;
+
     public int meleeDamage;
+
     //utilizados para ataque especial
     public int especial = 0;
 
-    public float dodgeForce;
     // Use this for initialization
-    private bool startWalkAfterRespawn = true;
     void Start () {
 
         audio = GetComponent<AudioSource> ();
@@ -57,43 +73,43 @@ public class Player : MonoBehaviour {
     }
 
     private void Update () {
-        // ESTE IF BLOQUEIA O USUARIO DE MOVER ENQUANTO ESTIVER RESPAWNANDO
-        if(startWalkAfterRespawn == true) {
-            //variavel boleana checa a posição do groundCheck. Se ele estiver em um objeto na layer
-            // "chao", ele fica verdadeiro
-            noChao = Physics2D.Linecast (
-                transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("chao")
-            );
+        //variavel boleana checa a posição do groundCheck. Se ele estiver em um objeto na layer
+        // "chao", ele fica verdadeiro
+        noChao = Physics2D.Linecast (transform.position, groundCheck.position, 1 <<
+            LayerMask.NameToLayer ("chao"));
 
-            //se for apertado o botao e se ele estiver no chao
-            if (Input.GetButtonDown ("Jump") && noChao) {
-                jump = true;
-                dodge = false;
-                anim.SetTrigger ("Pulou");
+        //se for apertado o botao e se ele estiver no chao
+        if (Input.GetButtonDown ("Jump") && noChao) {
+            jump = true;
+            dodge = false;
+            anim.SetTrigger ("Pulou");
+
+        }
+
+        //esquiva
+
+        if ((Input.GetKeyDown (KeyCode.J) || Input.GetKeyDown (KeyCode.E)) && (noChao)) {
+
+            if (!facingRight) {
+
+                Flip ();
+
             }
+            jump = false;
+            dodge = true;
+            anim.SetTrigger ("esquivou");
+            rb.AddForce (new Vector2 (-1500, 200));
 
-            //esquiva
+        }
 
-            if ((Input.GetKeyDown (KeyCode.J) || Input.GetKeyDown (KeyCode.E)) && (noChao)) {
-                int i = 1;
-                if (!facingRight) {
-                    i = -i ;
-                }
-                jump = false;
-                dodge = true;
-                anim.SetTrigger ("esquivou");
-                rb.AddForce (new Vector2 (-dodgeForce * i, 200));
-            }
+        //Ataque corpo a corpo botão  "K"
+        if (Input.GetKeyDown (KeyCode.K) || Input.GetMouseButtonDown (0))
+            attack ();
 
-            //Ataque corpo a corpo botão  "K"
-            if (Input.GetKeyDown (KeyCode.K) || Input.GetMouseButtonDown (0))
-                attack ();
+        Vector2 tela = Camera.main.WorldToScreenPoint (transform.position);
+        if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height) {
 
-            Vector2 tela = Camera.main.WorldToScreenPoint (transform.position);
-            if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height) {
-                morrer ();
-            }
-
+            morrer ();
         }
     }
 
@@ -110,6 +126,7 @@ public class Player : MonoBehaviour {
             Destroy (player);
 
         } else {
+
             respawn ();
             audio.PlayOneShot (deathSound);
             anim.SetTrigger ("respawn");
@@ -158,17 +175,10 @@ public class Player : MonoBehaviour {
     }
 
     public void respawn () {
-        startWalkAfterRespawn = false;
+
         //arrumando a posição do personagem para voltar ao inicio
-       player.transform.position = spawnPoint.transform.position;
-       StartCoroutine("WaitToRunAfterRespawn");
+        player.transform.position = spawnPoint.transform.position;
 
-    }
-
-    IEnumerator WaitToRunAfterRespawn()
-    {   
-        yield return new WaitForSeconds(1.0f);
-        startWalkAfterRespawn = true;
     }
 
     void Flip () {
