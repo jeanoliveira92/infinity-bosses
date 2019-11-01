@@ -17,24 +17,17 @@ public class EnemyKnuclesScript : Enemy {
 
     // Update is called once per frame
     void Update () {
-        if (Vector2.Distance (transform.position, target.position) != null) {
-            if (Vector2.Distance (transform.position, target.position) < followArea &&
+        if (Vector2.Distance (transform.position, target.position) < followArea &&
                 Vector2.Distance (transform.position, target.position) > 1.3f) {
                 Vector2 targetPos = new Vector2 (target.position.x, transform.position.y);
                 transform.position = Vector2.MoveTowards (transform.position, targetPos, speed * Time.deltaTime);
                 anim.SetTrigger ("run");
-            }
-
         }
+
+        
 
     }
 
-    private void takeDamage (int damage) {
-        anim.SetTrigger ("die");
-        health -= damage;
-        if (health <= 0) {
-            Destroy (gameObject);
-        }
-    }
+    
 
 }
