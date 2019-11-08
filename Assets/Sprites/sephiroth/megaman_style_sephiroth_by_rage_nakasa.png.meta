@@ -1,0 +1,1880 @@
+fileFormatVersion: 2
+guid: 1c4c0b5a820cd974ab3b558e27d364ae
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: megaman_style_sephiroth_by_rage_nakasa_0
+    21300002: megaman_style_sephiroth_by_rage_nakasa_1
+    21300004: megaman_style_sephiroth_by_rage_nakasa_2
+    21300006: megaman_style_sephiroth_by_rage_nakasa_3
+    21300008: megaman_style_sephiroth_by_rage_nakasa_4
+    21300010: megaman_style_sephiroth_by_rage_nakasa_5
+    21300012: megaman_style_sephiroth_by_rage_nakasa_6
+    21300014: megaman_style_sephiroth_by_rage_nakasa_7
+    21300016: megaman_style_sephiroth_by_rage_nakasa_8
+    21300018: megaman_style_sephiroth_by_rage_nakasa_9
+    21300020: megaman_style_sephiroth_by_rage_nakasa_10
+    21300022: megaman_style_sephiroth_by_rage_nakasa_11
+    21300024: megaman_style_sephiroth_by_rage_nakasa_12
+    21300026: megaman_style_sephiroth_by_rage_nakasa_13
+    21300028: megaman_style_sephiroth_by_rage_nakasa_14
+    21300030: megaman_style_sephiroth_by_rage_nakasa_15
+    21300032: megaman_style_sephiroth_by_rage_nakasa_16
+    21300034: megaman_style_sephiroth_by_rage_nakasa_17
+    21300036: megaman_style_sephiroth_by_rage_nakasa_18
+    21300038: megaman_style_sephiroth_by_rage_nakasa_19
+    21300040: megaman_style_sephiroth_by_rage_nakasa_20
+    21300042: megaman_style_sephiroth_by_rage_nakasa_21
+    21300044: megaman_style_sephiroth_by_rage_nakasa_22
+    21300046: megaman_style_sephiroth_by_rage_nakasa_23
+    21300048: megaman_style_sephiroth_by_rage_nakasa_24
+    21300050: megaman_style_sephiroth_by_rage_nakasa_25
+    21300052: megaman_style_sephiroth_by_rage_nakasa_26
+    21300054: megaman_style_sephiroth_by_rage_nakasa_27
+    21300056: megaman_style_sephiroth_by_rage_nakasa_28
+    21300058: megaman_style_sephiroth_by_rage_nakasa_29
+    21300060: megaman_style_sephiroth_by_rage_nakasa_30
+    21300062: megaman_style_sephiroth_by_rage_nakasa_31
+    21300064: megaman_style_sephiroth_by_rage_nakasa_32
+    21300066: megaman_style_sephiroth_by_rage_nakasa_33
+    21300068: megaman_style_sephiroth_by_rage_nakasa_34
+    21300070: megaman_style_sephiroth_by_rage_nakasa_35
+    21300072: megaman_style_sephiroth_by_rage_nakasa_36
+    21300074: megaman_style_sephiroth_by_rage_nakasa_37
+    21300076: megaman_style_sephiroth_by_rage_nakasa_38
+    21300078: megaman_style_sephiroth_by_rage_nakasa_39
+    21300080: megaman_style_sephiroth_by_rage_nakasa_40
+    21300082: megaman_style_sephiroth_by_rage_nakasa_41
+    21300084: megaman_style_sephiroth_by_rage_nakasa_42
+    21300086: megaman_style_sephiroth_by_rage_nakasa_43
+    21300088: megaman_style_sephiroth_by_rage_nakasa_44
+    21300090: megaman_style_sephiroth_by_rage_nakasa_45
+    21300092: megaman_style_sephiroth_by_rage_nakasa_46
+    21300094: megaman_style_sephiroth_by_rage_nakasa_47
+    21300096: megaman_style_sephiroth_by_rage_nakasa_48
+    21300098: megaman_style_sephiroth_by_rage_nakasa_49
+    21300100: megaman_style_sephiroth_by_rage_nakasa_50
+    21300102: megaman_style_sephiroth_by_rage_nakasa_51
+    21300104: megaman_style_sephiroth_by_rage_nakasa_52
+    21300106: megaman_style_sephiroth_by_rage_nakasa_53
+    21300108: megaman_style_sephiroth_by_rage_nakasa_54
+    21300110: megaman_style_sephiroth_by_rage_nakasa_55
+    21300112: megaman_style_sephiroth_by_rage_nakasa_56
+    21300114: megaman_style_sephiroth_by_rage_nakasa_57
+    21300116: megaman_style_sephiroth_by_rage_nakasa_58
+    21300118: megaman_style_sephiroth_by_rage_nakasa_59
+    21300120: megaman_style_sephiroth_by_rage_nakasa_60
+    21300122: megaman_style_sephiroth_by_rage_nakasa_61
+    21300124: megaman_style_sephiroth_by_rage_nakasa_62
+    21300126: megaman_style_sephiroth_by_rage_nakasa_63
+    21300128: megaman_style_sephiroth_by_rage_nakasa_64
+    21300130: megaman_style_sephiroth_by_rage_nakasa_65
+    21300132: megaman_style_sephiroth_by_rage_nakasa_66
+    21300134: megaman_style_sephiroth_by_rage_nakasa_67
+    21300136: megaman_style_sephiroth_by_rage_nakasa_68
+    21300138: megaman_style_sephiroth_by_rage_nakasa_69
+    21300140: megaman_style_sephiroth_by_rage_nakasa_70
+    21300142: megaman_style_sephiroth_by_rage_nakasa_71
+    21300144: megaman_style_sephiroth_by_rage_nakasa_72
+    21300146: megaman_style_sephiroth_by_rage_nakasa_73
+    21300148: megaman_style_sephiroth_by_rage_nakasa_74
+    21300150: megaman_style_sephiroth_by_rage_nakasa_75
+    21300152: megaman_style_sephiroth_by_rage_nakasa_76
+    21300154: megaman_style_sephiroth_by_rage_nakasa_77
+    21300156: megaman_style_sephiroth_by_rage_nakasa_78
+    21300158: megaman_style_sephiroth_by_rage_nakasa_79
+    21300160: megaman_style_sephiroth_by_rage_nakasa_80
+    21300162: megaman_style_sephiroth_by_rage_nakasa_81
+    21300164: megaman_style_sephiroth_by_rage_nakasa_82
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  serializedVersion: 9
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 264
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec89856f71bbc8a49946c7aebc6d7cd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_1
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 291
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3845161974bd5974db5140b1991dd95d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_2
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 291
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f7ab349c585764986a227749c8c754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_3
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 289
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a81ae1c70ded0546b1ec1962a3201ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 291
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccd535d9fda1d14fab3944471e952b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_5
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 291
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa925d9444d2854189d43f8dc99e4a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 291
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3c0019c0a713845a5ceaca18261c3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_7
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 216
+        width: 179
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2d4ca260449424487bc6646d54c8d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_8
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 269
+        width: 49
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f9c398e8f23dc4ab309b0f541c1310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 239
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f203b01a3f8a246af523868ad6fa3a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 241
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6123a872067c1bd4fb97bf02ca4e3256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_11
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 241
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbf395c99353d446b2355e8cb117019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 205
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebbbe6ca6143e8a48a21e27bf777c37b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 208
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67879a9a7cbae76479c3a039c9423ebe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 207
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc6a43275dd06d4cacef98c055b2457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_15
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 206
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d97ba4948365e140b67fe10364e3d9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_16
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 205
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4794652c730d6459d5bdfddc1bb3ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 143
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1853ff2d7a4047449bd519be255bf7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_18
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 143
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06342d462ee014b42b5abd20e3be005a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 142
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd152754941289341a45b8c98cb14113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 143
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29628744496d8b4284da44f4890cb30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_21
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 143
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2477d7b8d073d914485c46eee20f24fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_22
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 166
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010a792258fac8547a6de5294741de45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_23
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 141
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964675107a1ad6f4182dd2e730e22ab2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_24
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 135
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c229ef6b10ef3d34997540f78d915815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_25
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 142
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d3ad8144bb2db4dbab5e3e80eca388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_26
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 142
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35162298661319645a28fb664794cdae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27b01c02dda4c2469103a664162c36e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_28
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 85
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9916b4628c2733449a3dfd8be9a7975e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_29
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 71
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -28.5, y: -22}
+        - {x: -16.5, y: -7}
+        - {x: -3.5, y: 5}
+        - {x: -2.5, y: 11}
+        - {x: 4.5, y: 12}
+        - {x: 7.5, y: 12}
+        - {x: 9.5, y: 19}
+        - {x: 13.5, y: 21}
+        - {x: 16.5, y: 24}
+        - {x: 20.5, y: 21}
+        - {x: 20.5, y: 24}
+        - {x: 24.5, y: 24}
+        - {x: 26.5, y: 22}
+        - {x: 26.5, y: 11}
+        - {x: 25.5, y: 10}
+        - {x: 25.5, y: 3}
+        - {x: 26.5, y: 0}
+        - {x: 24.5, y: -4}
+        - {x: 22.5, y: -4}
+        - {x: 22.5, y: -6}
+        - {x: 24.5, y: -12}
+        - {x: 27.5, y: -13}
+        - {x: 29.5, y: -15}
+        - {x: 29.5, y: -18}
+        - {x: 17.5, y: -18}
+        - {x: 17.5, y: -14}
+        - {x: 10.5, y: -14}
+        - {x: 9.5, y: -19}
+        - {x: 0.5, y: -19}
+        - {x: -0.5, y: -18}
+        - {x: -0.5, y: -16}
+        - {x: 10.5, y: -5}
+        - {x: 10.5, y: 4}
+        - {x: 6.5, y: 7}
+        - {x: 1.5, y: 4}
+        - {x: -2.5, y: 4}
+        - {x: -13.5, y: -7}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a21ea7e31d47346bc51110a2516fd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_30
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 71
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd2c5de03f8ab844b40d7caec836240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 71
+        width: 34
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7978fee33ebe9574eb8a7fa069886708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_32
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 71
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba029b2f3c9ebb745abdd32f57438796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_33
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 71
+        width: 50
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80ce4e86ad36d34ea0a74b43622df7b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_34
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 68
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fbebb3a5b73774b9226e1e77734f75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_35
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 61
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ecf2b309a4f014582eed40d0082833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 9
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b740a37566a234d8b12db2b9af725a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_37
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 9
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2351d1994bdf7954db7d2fc5a90a26c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_38
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 12
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf107b0043a713408ba457dcc434bd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_39
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 12
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7e0b503f7473b418d8481e0fed78f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_40
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 17
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447951a292ae50947bf0b0bea9a6fab5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_41
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 22
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cbec9636f5f2540ac6b892277aba57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_42
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 36
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7820967879c33d44fb17f20926292983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_43
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 36
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fb72cd4c59d684ebdc242f8eeeba0a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_44
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 36
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdb1017324e8824f9a5a234eb98b1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_45
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 36
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630ce3ac8f6761d47a745f5a88af21c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_46
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1d6db4397482e42bd49fea814b8e88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_47
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 36
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942e10310480b6944a574b69b33b7c68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_48
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 36
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 376280eb09fc3434698923205610a0d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_49
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 36
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2e8850239e63044a4bd3170c557339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_50
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 36
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9283fe8a198e6084582896aeab00a6ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_51
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 36
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc3e5f59b5c1fc46905a2733d384bfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_52
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 36
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e343e2a8235ee4d4e9aab108ac83a74a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_53
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 36
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac75428b039600b48ac94ebeaaabb9f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_54
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 34
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38b5571718c1204a803542ffbfc27f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_55
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 36
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f98dd3623446142946ddee6ada02e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_56
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86663e50a76f9cb49a62cd454f37bbcf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_57
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb59f4a251471b74ba47c50f304adfed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_58
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185c023be0e89a5449891789dab88cf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_59
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 22
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909f5c648814d7241a255fffede3727a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 22
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6bac15c62389e47992c9e6445bc77a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_61
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3dbedf5338dcfb47a6b915ed2462e51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_62
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 20
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf1e3a357445a44ebf8b15b23900765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_63
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85b4116d076d31439855a283bdee328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_64
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 22
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a979cdfe4b282e4b819fd27bbfeb2fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_65
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4466b178971889c4a82b0213042bfa06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_66
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 22
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434c5d7ded93cf74da6807ffaef106d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_67
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccc757d0da1a9842bc80d59b187b8a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_68
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b108430802b898b4497e1e171fe16acb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_69
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de337d4fcbb52f54cba317a6ac961c05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_70
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2585b6be24227c84496315fdc345fcc6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_71
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 22
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30c58d4d881bb540be26a5053cd3760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_72
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 22
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6c48fc4c5c7144496f2c7cfa6aff99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_73
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 8
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77d8bf98067b848409691fb5fc1938b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_74
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 8
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831734a3fe803ce4099d5fd2b7de36c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_75
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 8
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad89b5f750f3e443b5adf048ce003ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_76
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 8
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3490d82a2fb784f4ba41adddf21819c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_77
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 8
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb6cf82eb4e2c04dbed3dad980fb1bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_78
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 8
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ade909af4fd75314a93617d33e3588f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_79
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 8
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c301b3a0d8ebdd4ca71f538e7758f67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_80
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 8
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33db20a611976c48b392cead829f8ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_81
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 8
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313c0859a745a824db01c5a4d9ca0f46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: megaman_style_sephiroth_by_rage_nakasa_82
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 8
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823bdafe2682a83498dab0a0645eb756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8b94302b37b6ba648b632cf6b303d022
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
