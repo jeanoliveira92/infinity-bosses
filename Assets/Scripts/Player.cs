@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour {
     //Declaração de variáveis
+
+  
     public GameObject player;
     public AudioClip ringSound;
     public AudioClip heartSound;
@@ -48,6 +50,7 @@ public class Player : MonoBehaviour {
         audio = GetComponent<AudioSource> ();
 
         rb = gameObject.gameObject.GetComponent<Rigidbody2D> ();
+
 
         anim = gameObject.gameObject.GetComponent<Animator> ();
 
@@ -161,6 +164,9 @@ public class Player : MonoBehaviour {
         startWalkAfterRespawn = false;
         //arrumando a posição do personagem para voltar ao inicio
        player.transform.position = spawnPoint.transform.position;
+       Camera.main.transform.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y, -10);
+       
+
        StartCoroutine("WaitToRunAfterRespawn");
 
     }
@@ -238,6 +244,15 @@ public class Player : MonoBehaviour {
             rb.AddForce (new Vector2 (0, jumpForce * 5));
 
         }
+
+         if (other.CompareTag ("CheckPoint")) {
+
+           
+             spawnPoint.transform.position = other.transform.position;
+
+        }
+
+
     }
 
     void OnCollisionEnter2D (Collision2D col) {

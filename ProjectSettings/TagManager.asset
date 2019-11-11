@@ -18,6 +18,7 @@ TagManager:
   - plataform
   - JumpPad
   - shoes
+  - CheckPoint
   layers:
   - Default
   - TransparentFX
