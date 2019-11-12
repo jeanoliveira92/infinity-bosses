@@ -232,7 +232,6 @@ public class Player : MonoBehaviour {
         if (other.CompareTag ("shoes")) {
 
             maxSpeed += (maxSpeed * 0.5f);
-            anim.SetTrigger ("shoes");
             other.gameObject.SetActive (false);
             Destroy (other);
 
