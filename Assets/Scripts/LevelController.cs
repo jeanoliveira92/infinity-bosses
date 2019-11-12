@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class LevelController : MonoBehaviour {
 
-    public GameObject inGameUI;
-    public GameObject gameOverUI;
     public camera cam;
+
+    public GameObject pauseUI;
 
     public Transform c;
 
@@ -45,14 +45,18 @@ public class LevelController : MonoBehaviour {
     }
     // Update is called once per frame
     void Update () {
+        
 
-        gameOverUI.SetActive (false);
         life.SetText (shadow.life.ToString ());
         ring.SetText (shadow.rings.ToString ());
 
+        if (Input.GetKeyDown (KeyCode.Escape)) {
+            pauseGame ();
+           
+        }
+
         if (shadow.life == 0) {
 
-            
             SceneManager.LoadScene ("gameOver");
 
         }
@@ -80,6 +84,23 @@ public class LevelController : MonoBehaviour {
     public void backToMenu () {
 
         SceneManager.LoadScene ("mainMenu");
+
+    }
+
+    bool isPaused = false;
+    public void pauseGame () {
+
+        if (isPaused) {
+
+            Time.timeScale = 1;
+            isPaused = false;
+            pauseUI.SetActive (false);
+        } else {
+
+            Time.timeScale = 0;
+            isPaused = true;
+            pauseUI.SetActive (true);
+        }
 
     }
 

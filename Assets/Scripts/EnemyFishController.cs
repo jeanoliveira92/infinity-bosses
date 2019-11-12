@@ -28,7 +28,7 @@ public class EnemyFishController : Enemy
     void Start()
     {   
 
-        //pegando o colider da ponte, para o peixe poder atraves, sem ter a colisão
+        //pegando o colider da ponte, para o peixe poder atravesar, sem ter a colisão
      Physics2D.IgnoreCollision(bridge.GetComponent<Collider2D>(), GetComponent<Collider2D>());    
         
         StartCoroutine(Attack());
