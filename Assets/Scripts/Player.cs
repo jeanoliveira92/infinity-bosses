@@ -4,10 +4,11 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour
+{
     //Declaração de variáveis
 
-  
+
     public GameObject player;
     public AudioClip ringSound;
     public AudioClip heartSound;
@@ -45,139 +46,171 @@ public class Player : MonoBehaviour {
     public float dodgeForce;
     // Use this for initialization
     private bool startWalkAfterRespawn = true;
-    void Start () {
+    private bool startWalking = true;
+    void Start()
+    {
 
-        audio = GetComponent<AudioSource> ();
+        audio = GetComponent<AudioSource>();
 
-        rb = gameObject.gameObject.GetComponent<Rigidbody2D> ();
+        rb = gameObject.gameObject.GetComponent<Rigidbody2D>();
 
 
-        anim = gameObject.gameObject.GetComponent<Animator> ();
+        anim = gameObject.gameObject.GetComponent<Animator>();
 
         //componente checa se o player esta tocando o chao
-        groundCheck = gameObject.transform.Find ("Chao");
+        groundCheck = gameObject.transform.Find("Chao");
 
     }
 
-    private void Update () {
+    private void Update()
+    {
         // ESTE IF BLOQUEIA O USUARIO DE MOVER ENQUANTO ESTIVER RESPAWNANDO
-        if(startWalkAfterRespawn == true) {
+        if (startWalkAfterRespawn == true)
+        {
             //variavel boleana checa a posição do groundCheck. Se ele estiver em um objeto na layer
             // "chao", ele fica verdadeiro
-            noChao = Physics2D.Linecast (
-                transform.position, groundCheck.position, 1 << LayerMask.NameToLayer ("chao")
+            noChao = Physics2D.Linecast(
+                transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("chao")
             );
 
             //se for apertado o botao e se ele estiver no chao
-            if (Input.GetButtonDown ("Jump") && noChao) {
+            if (Input.GetButtonDown("Jump") && noChao)
+            {
                 jump = true;
                 dodge = false;
-                anim.SetTrigger ("Pulou");
+                anim.SetTrigger("Pulou");
             }
 
             //esquiva
 
-            if ((Input.GetKeyDown (KeyCode.J) || Input.GetKeyDown (KeyCode.E)) && (noChao)) {
+            if ((Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown(KeyCode.E)) && (noChao))
+            {
                 int i = 1;
-                if (!facingRight) {
-                    i = -i ;
+                if (!facingRight)
+                {
+                    i = -i;
                 }
                 jump = false;
                 dodge = true;
-                anim.SetTrigger ("esquivou");
-                rb.AddForce (new Vector2 (-dodgeForce * i, 200));
+                anim.SetTrigger("esquivou");
+                rb.AddForce(new Vector2(-dodgeForce * i, 200));
             }
 
             //Ataque corpo a corpo botão  "K"
-            if (Input.GetKeyDown (KeyCode.K) || Input.GetMouseButtonDown (0))
-                attack ();
+            if (Input.GetKeyDown(KeyCode.K) || Input.GetMouseButtonDown(0))
+                attack();
 
-            Vector2 tela = Camera.main.WorldToScreenPoint (transform.position);
-            if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height) {
-                morrer ();
+            Vector2 tela = Camera.main.WorldToScreenPoint(transform.position);
+            if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height)
+            {
+                morrer();
             }
 
         }
     }
 
-    void morrer () {
+    void morrer()
+    {
 
         //ação quando ele perde uma vida
         //vai ressurgir na tela no começo da fase
         //ou em checkpoint
         life--;
-        if (life == 0) {
+        if (life == 0)
+        {
 
             //se era a ultima vida e deu gameover
 
-            Destroy (player);
+            Destroy(player);
 
-        } else {
-            respawn ();
-            audio.PlayOneShot (deathSound);
-            anim.SetTrigger ("respawn");
+        }
+        else
+        {
+            respawn();
+            audio.PlayOneShot(deathSound);
+            anim.SetTrigger("respawn");
 
         }
 
     }
 
-    private void attack () {
+    private void attack()
+    {
         //animação de ataque
-        anim.SetTrigger ("attack");
+        anim.SetTrigger("attack");
         //verifica se existe algum collider dentro do raio de alcance e guarda em um vetor
-        Collider2D[] results = Physics2D.OverlapCircleAll (meleePivot.position, meleerange);
-        foreach (Collider2D c in results) {
+        Collider2D[] results = Physics2D.OverlapCircleAll(meleePivot.position, meleerange);
+        foreach (Collider2D c in results)
+        {
             //se for um inimigo envia uma mensagem de dano
-            if (c.gameObject.CompareTag ("Enemy")) {
-                c.SendMessage ("takeDamage", meleeDamage, SendMessageOptions.DontRequireReceiver);
+            if (c.gameObject.CompareTag("Enemy"))
+            {
+                c.SendMessage("takeDamage", meleeDamage, SendMessageOptions.DontRequireReceiver);
             }
         }
     }
 
-    void FixedUpdate () {
-        float h = Input.GetAxisRaw ("Horizontal");
+    void FixedUpdate()
+    {
+        float h = Input.GetAxisRaw("Horizontal");
 
-        //pega o valor negativo, e faz o modulo
-        anim.SetFloat ("Velocidade", Mathf.Abs (h));
-
-        rb.velocity = new Vector2 (h * maxSpeed, rb.velocity.y);
-
-        if (h > 0 && !facingRight) {
-
-            Flip ();
-
-        } else if (h < 0 && facingRight) {
-
-            Flip ();
+        if (startWalking == true && h == 0)
+        {
+            h = 0.4f;
+        }
+        else
+        {
+            startWalking = false;
         }
 
-        if (jump) {
+        //pega o valor negativo, e faz o modulo
+        anim.SetFloat("Velocidade", Mathf.Abs(h));
 
-            audio.PlayOneShot (jumpSound);
-            rb.AddForce (new Vector2 (0, jumpForce));
+        rb.velocity = new Vector2(h * maxSpeed, rb.velocity.y);
+
+        if (h > 0 && !facingRight)
+        {
+
+            Flip();
+
+        }
+        else if (h < 0 && facingRight)
+        {
+
+            Flip();
+        }
+
+        if (jump)
+        {
+
+            audio.PlayOneShot(jumpSound);
+            rb.AddForce(new Vector2(0, jumpForce));
             jump = false;
         }
 
     }
 
-    public void respawn () {
+    public void respawn()
+    {
         startWalkAfterRespawn = false;
         //arrumando a posição do personagem para voltar ao inicio
-       player.transform.position = spawnPoint.transform.position;
-       Camera.main.transform.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y, -10);
-       
+        player.transform.position = spawnPoint.transform.position;
+        Camera.main.transform.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y, -10);
 
-       StartCoroutine("WaitToRunAfterRespawn");
+
+        StartCoroutine("WaitToRunAfterRespawn");
 
     }
 
     IEnumerator WaitToRunAfterRespawn()
-    {   
+    {
         yield return new WaitForSeconds(1.0f);
-        startWalkAfterRespawn = true;
+        startWalking = true;
+        //startWalkAfterRespawn = true;
     }
 
-    void Flip () {
+    void Flip()
+    {
         //virando pra direita
         facingRight = !facingRight;
 
@@ -192,76 +225,85 @@ public class Player : MonoBehaviour {
 
     }
 
-    private void OnTriggerEnter2D (Collider2D other) {
-        if (other.CompareTag ("Enemy")) {
-
-            morrer ();
-
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            morrer();
         }
 
         //coleta de items
 
-        if (other.CompareTag ("scoreRing")) {
-            audio.PlayOneShot (ringSound);
+        if (other.CompareTag("scoreRing"))
+        {
+            audio.PlayOneShot(ringSound);
             rings++;
 
-            other.gameObject.SetActive (false);
-            Destroy (other);
+            other.gameObject.SetActive(false);
+            Destroy(other);
         }
 
-        if (other.CompareTag ("life")) {
+        if (other.CompareTag("life"))
+        {
 
-            if (life < 3) {
+            if (life < 3)
+            {
 
                 life++;
-                audio.PlayOneShot (heartSound);
-                other.gameObject.SetActive (false);
-                Destroy (other);
+                audio.PlayOneShot(heartSound);
+                other.gameObject.SetActive(false);
+                Destroy(other);
 
             }
         }
 
-        if (other.CompareTag ("diamant")) {
+        if (other.CompareTag("diamant"))
+        {
 
-            anim.SetTrigger ("diamant");
-            other.gameObject.SetActive (false);
-            Destroy (other);
+            anim.SetTrigger("diamant");
+            other.gameObject.SetActive(false);
+            Destroy(other);
 
         }
 
-        if (other.CompareTag ("shoes")) {
+        if (other.CompareTag("shoes"))
+        {
 
             maxSpeed += (maxSpeed * 0.5f);
-            other.gameObject.SetActive (false);
-            Destroy (other);
+            other.gameObject.SetActive(false);
+            Destroy(other);
 
         }
 
-        if (other.CompareTag ("JumpPad")) {
+        if (other.CompareTag("JumpPad"))
+        {
 
-            anim.SetTrigger ("Pulou");
-            rb.AddForce (new Vector2 (0, jumpForce * 5));
+            anim.SetTrigger("Pulou");
+            rb.AddForce(new Vector2(0, jumpForce * 5));
 
         }
 
-         if (other.CompareTag ("CheckPoint")) {
+        if (other.CompareTag("CheckPoint"))
+        {
 
-           
-             spawnPoint.transform.position = other.transform.position;
+
+            spawnPoint.transform.position = other.transform.position;
 
         }
 
 
     }
 
-    void OnCollisionEnter2D (Collision2D col) {
-        if (col.gameObject.name.Equals ("Plataform"))
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.name.Equals("Plataform"))
             this.transform.parent = col.transform;
-            
+
     }
 
-    void OnCollisionExit2D (Collision2D col) {
-        if (col.gameObject.name.Equals ("Plataform"))
+    void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.gameObject.name.Equals("Plataform"))
             this.transform.parent = null;
     }
 

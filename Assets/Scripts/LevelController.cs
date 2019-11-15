@@ -4,104 +4,98 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelController : MonoBehaviour {
+public class LevelController : MonoBehaviour
+{
 
     public camera cam;
-
-    public GameObject pauseUI;
-
     public Transform c;
-
-    public static LevelController lc;
-
     public Player shadow;
-
     public TextMeshProUGUI life;
     public TextMeshProUGUI ring;
+    public GameObject UIPause;
+
     // Start is called before the first frame update
-
-    void Start () {
-        if (lc == null) {
-            lc = GameObject.FindGameObjectWithTag ("LevelController").GetComponent<LevelController> ();
-
-        }
+    void Start()
+    {
     }
     public Transform player;
     public Transform spawnPoint;
-
     public float spawnDelay = 1.2f;
 
-    public IEnumerator RespawnPlayer () {
+    public IEnumerator RespawnPlayer()
+    {
 
-        yield return new WaitForSeconds (spawnDelay);
-        Instantiate (player, spawnPoint.position, spawnPoint.rotation);
+        yield return new WaitForSeconds(spawnDelay);
+        Instantiate(player, spawnPoint.position, spawnPoint.rotation);
 
     }
 
-    public void KillPlayer () {
-        Destroy (player.gameObject);
-        lc.StartCoroutine (lc.RespawnPlayer ());
+    public void KillPlayer()
+    {
+        Destroy(player.gameObject);
+        StartCoroutine("RespawnPlayer");
 
     }
     // Update is called once per frame
-    void Update () {
-        
+    void Update()
+    {
 
-        life.SetText (shadow.life.ToString ());
-        ring.SetText (shadow.rings.ToString ());
 
-        if (Input.GetKeyDown (KeyCode.Escape)) {
-            pauseGame ();
-           
-        }
+        life.SetText(shadow.life.ToString());
+        ring.SetText(shadow.rings.ToString());
 
-        if (shadow.life == 0) {
-
-            SceneManager.LoadScene ("gameOver");
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseGame();
 
         }
 
-    }
+        if (shadow.life == 0)
+        {
 
-    public void restartShadow () {
+            SceneManager.LoadScene("gameOver");
 
-        SceneManager.LoadScene ("Shadow");
-
-    }
-
-    public void restartThanos () {
-
-        SceneManager.LoadScene ("Thanos");
+        }
 
     }
 
-    public void restartSephiroth () {
+    public void backToMenu()
+    {
 
-        SceneManager.LoadScene ("Sephiroth");
-
-    }
-
-    public void backToMenu () {
-
-        SceneManager.LoadScene ("mainMenu");
+        SceneManager.LoadScene("mainMenu");
 
     }
 
-    bool isPaused = false;
-    public void pauseGame () {
+    public void restartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 
-        if (isPaused) {
-
+    private bool isPaused = false;
+    public void pauseGame()
+    {
+        if (isPaused)
+        {
             Time.timeScale = 1;
             isPaused = false;
-            pauseUI.SetActive (false);
-        } else {
-
+            UIPause.SetActive(false);
+        }
+        else
+        {
             Time.timeScale = 0;
             isPaused = true;
-            pauseUI.SetActive (true);
+            UIPause.SetActive(true);
         }
 
+    }
+
+    public void enableControlersScreen()
+    {
+        UIPause.transform.GetChild(5).gameObject.SetActive(true);
+    }
+    public void DisableControlersScreen()
+    {
+        UIPause.transform.GetChild(5).gameObject.SetActive(false);
     }
 
 }
