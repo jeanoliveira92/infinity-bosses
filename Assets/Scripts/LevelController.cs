@@ -50,7 +50,7 @@ public class LevelController : MonoBehaviour
 
         }
 
-        if (shadow.life == 0)
+        if (shadow.life <= 0)
         {
 
             SceneManager.LoadScene("gameOver");

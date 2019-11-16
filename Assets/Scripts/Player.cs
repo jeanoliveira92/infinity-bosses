@@ -116,7 +116,7 @@ public class Player : MonoBehaviour
         //vai ressurgir na tela no começo da fase
         //ou em checkpoint
         life--;
-        if (life == 0)
+        if (life <= 0)
         {
 
             //se era a ultima vida e deu gameover
@@ -192,7 +192,7 @@ public class Player : MonoBehaviour
 
     public void respawn()
     {
-        startWalkAfterRespawn = false;
+       
         //arrumando a posição do personagem para voltar ao inicio
         player.transform.position = spawnPoint.transform.position;
         Camera.main.transform.position = new Vector3(spawnPoint.position.x, spawnPoint.position.y, -10);
@@ -206,7 +206,7 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
         startWalking = true;
-        //startWalkAfterRespawn = true;
+       
     }
 
     void Flip()
