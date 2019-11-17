@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class movePlataformH : MonoBehaviour {
 
-    float moveSpeed = 3f;
+    public float moveSpeed;
     bool moveRight = true;
 
-    public float pointOne, pointTwo;
+    public float menor, maior;
 
     public GameObject cam;
     public GameObject cam2;
@@ -21,9 +21,9 @@ public class movePlataformH : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (transform.position.x > pointTwo)
+        if (transform.position.x > maior)
             moveRight = false;
-        if (transform.position.x < pointOne)
+        if (transform.position.x < menor)
             moveRight = true;
 
         if (moveRight)

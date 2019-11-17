@@ -19,23 +19,7 @@ public class LevelController : MonoBehaviour
     {
     }
     public Transform player;
-    public Transform spawnPoint;
-    public float spawnDelay = 1.2f;
 
-    public IEnumerator RespawnPlayer()
-    {
-
-        yield return new WaitForSeconds(spawnDelay);
-        Instantiate(player, spawnPoint.position, spawnPoint.rotation);
-
-    }
-
-    public void KillPlayer()
-    {
-        Destroy(player.gameObject);
-        StartCoroutine("RespawnPlayer");
-
-    }
     // Update is called once per frame
     void Update()
     {
@@ -47,13 +31,6 @@ public class LevelController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             pauseGame();
-
-        }
-
-        if (shadow.life <= 0)
-        {
-
-            SceneManager.LoadScene("gameOver");
 
         }
 
