@@ -43,6 +43,10 @@ public class Player : MonoBehaviour {
 
     public float dodgeForce;
     // Use this for initialization
+    public bool DoubleJump = false;
+    int numJump = 0;
+
+    bool canDoubleJump = false;
     private bool startWalkAfterRespawn = true;
     private bool startWalking = true;
 
@@ -71,9 +75,29 @@ public class Player : MonoBehaviour {
 
             //se for apertado o botao e se ele estiver no chao
             if (Input.GetButtonDown ("Jump") && noChao) {
+
+                anim.SetTrigger ("Pulou");
+                if (noChao) {
+
+                    numJump = 0;
+                }
+
+                numJump++;
                 jump = true;
                 dodge = false;
-                anim.SetTrigger ("Pulou");
+
+            }
+
+            if (Input.GetButtonDown ("Jump") && !noChao) {
+
+                if (numJump == 1) {
+                    DoubleJump = true;
+                    anim.SetTrigger ("DoubleJump");
+                } else {
+                    DoubleJump = false;
+
+                }
+
             }
 
             //esquiva
@@ -86,7 +110,7 @@ public class Player : MonoBehaviour {
                 jump = false;
                 dodge = true;
                 anim.SetTrigger ("esquivou");
-                rb.AddForce (new Vector2 (-dodgeForce * i, 200));
+                rb.AddForce (new Vector2 (-dodgeForce * i, 150));
             }
 
             //Ataque corpo a corpo botão  "K"
@@ -164,6 +188,15 @@ public class Player : MonoBehaviour {
             audio.PlayOneShot (jumpSound);
             rb.AddForce (new Vector2 (0, jumpForce));
             jump = false;
+
+        }
+
+        if (DoubleJump && numJump == 1) {
+
+            numJump = 0;
+            rb.AddForce (new Vector2 (0, jumpForce - (jumpForce *0.30f)));
+            DoubleJump = false;
+
         }
 
     }
@@ -171,7 +204,7 @@ public class Player : MonoBehaviour {
     public void respawn () {
 
         //arrumando a posição do personagem para voltar ao inicio
-      
+
         player.transform.position = spawnPoint.transform.position;
         Camera.main.transform.position = new Vector3 (spawnPoint.position.x, spawnPoint.position.y, -10);
 
@@ -253,6 +286,12 @@ public class Player : MonoBehaviour {
         if (other.CompareTag ("CheckPoint")) {
 
             spawnPoint.transform.position = other.transform.position;
+
+        }
+
+        if (other.CompareTag ("shield")) {
+            other.gameObject.SetActive (false);
+            Destroy (other);
 
         }
 
