@@ -22,6 +22,32 @@ TextureImporter:
     21300034: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_17
     21300036: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_18
     21300038: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_19
+    21300040: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_20
+    21300042: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_21
+    21300044: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_22
+    21300046: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_23
+    21300048: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_24
+    21300050: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_25
+    21300052: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_26
+    21300054: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_27
+    21300056: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_28
+    21300058: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_29
+    21300060: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_30
+    21300062: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_31
+    21300064: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_32
+    21300066: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_33
+    21300068: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_34
+    21300070: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_35
+    21300072: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_36
+    21300074: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_37
+    21300076: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_38
+    21300078: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_39
+    21300080: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_40
+    21300082: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_41
+    21300084: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_42
+    21300086: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_43
+    21300088: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_44
+    21300090: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_45
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -492,13 +518,533 @@ TextureImporter:
         width: 15
         height: 15
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 759a6951c39bfca439599dcd0f496a20
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_20
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 244
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1360998fae86de41b660f69cd1a59b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_21
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 244
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25fc9431cb3285e4ba821fa0a5b9e1e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_22
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 243
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d02e068a4204f24a8deacb3b7de4eae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_23
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 243
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450e1489bef722047a0ca8bc4dc23ae4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_24
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 242
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f686c550ab9ba46a00ae8d0b668fa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_25
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 242
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c2e506b4ef72f140a52a97910aab735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_26
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 383
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b5d53231410ad6458326627840e35c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 383
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2eefecf419267479ec0bb3b55b31e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 383
+        width: 37
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d950973eefb955f4ab325a3116e44d15
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_29
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 383
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e5fa13cfc07654d8bb30482ef96492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_30
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 383
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9ca9a9aab71344bbe5a69c5b6eb4ee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 383
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680821fdaf6f43c409258021f273b723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_32
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 321
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a1bc5be1dfa8438d7619175fa2170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_33
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 321
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbdc1af1a2322d4385317f18c9db483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_34
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 321
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7906c89ea5b6e3540b700da6f2a9b9de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_35
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 321
+        width: 36
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7db0b55d35c05428c2d9eba7c58374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 320
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc875fd9b4a0714b9613b37f34320ae
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_37
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 192
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b4e88210bf48b4691293fc26a4f0ec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_38
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 192
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2191565e8ca69d45aa2b3fd08d31b51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b84faeba0db19248a90d85bbd6c93c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_40
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 192
+        width: 51
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c4b4bf93cc6a947876fea78bab4cd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_41
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 192
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbbd85d753b27546bfe50e8101f9364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_42
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 192
+        width: 101
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325af1bbc5a196140be9ceb0e1066032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 192
+        width: 97
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5239581515811444f8105730402114eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_44
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 193
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372e0be1f06954041a6eda63b17c2dd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Sonic Rush Adventure - Baddies Zone 6 - Sky Babylon_45
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 193
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e1d80153f81164ea09af9a77e89fc2
       vertices: []
       indices: 
       edges: []
