@@ -15,7 +15,7 @@ public class LevelController : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start () {
-        Cursor.visible = false;
+      
     }
 
     public Transform player;
@@ -23,7 +23,7 @@ public class LevelController : MonoBehaviour {
     // Update is called once per frame
     void Update () {
 
-         Cursor.visible = false;
+       
 
         life.SetText (shadow.life.ToString ());
         ring.SetText (shadow.rings.ToString ());
@@ -49,15 +49,15 @@ public class LevelController : MonoBehaviour {
     private bool isPaused = false;
     public void pauseGame () {
         if (isPaused) {
-            Time.timeScale = 1;
+            Time.timeScale = 1; 
             isPaused = false;
             UIPause.SetActive (false);
-            Cursor.visible = false;
+            
         } else {
             Time.timeScale = 0;
             isPaused = true;
             UIPause.SetActive (true);
-            Cursor.visible = true;
+            
         }
 
     }
