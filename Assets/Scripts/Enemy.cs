@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour {
   
 
     //inimigo leva dano do player
-    private void takeDamage (int damage) {
+    public void takeDamage (int damage) {
 
         health -= damage;
         if (health <= 0) {

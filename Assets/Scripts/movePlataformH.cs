@@ -12,11 +12,14 @@ public class movePlataformH : MonoBehaviour {
     public GameObject cam;
     public GameObject cam2;
 
+    public GameObject obstacle;
+
     // Use this for initialization
     void Start () {
 
         Physics2D.IgnoreCollision (cam.GetComponent<Collider2D> (), GetComponent<Collider2D> ());
         Physics2D.IgnoreCollision (cam2.GetComponent<Collider2D> (), GetComponent<Collider2D> ());
+        Physics2D.IgnoreCollision (obstacle.GetComponent<Collider2D> (), GetComponent<Collider2D> ());
     }
 
     // Update is called once per frame

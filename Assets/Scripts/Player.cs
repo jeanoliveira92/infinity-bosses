@@ -51,6 +51,13 @@ public class Player : MonoBehaviour {
     private bool startWalking = true;
 
     public float spawnDelay = 1.2f;
+
+    //ataque especial
+
+    public Transform firePoint;
+    public GameObject specialBullet;
+
+    float cont = 0;
     void Start () {
 
         audio = GetComponent<AudioSource> ();
@@ -117,6 +124,27 @@ public class Player : MonoBehaviour {
             if (Input.GetKeyDown (KeyCode.K) || Input.GetMouseButtonDown (0))
                 attack ();
 
+        //contador de tempo entre disparos. 
+            cont = cont + Time.deltaTime;
+            if (Input.GetKeyDown (KeyCode.L) || Input.GetMouseButtonDown (1)) {
+
+                bool canShoot = true;
+
+                Debug.Log (cont);
+                if (cont >= 0.8f && canShoot == true) {
+
+                    canShoot = true;
+                    cont = 0;
+                    specialAttack ();
+
+                } else {
+
+                    canShoot = false;
+
+                }
+
+            }
+
             Vector2 tela = Camera.main.WorldToScreenPoint (transform.position);
             if (tela.x < 0 || tela.y < 0 || tela.x > Screen.width || tela.y > Screen.height) {
                 morrer ();
@@ -160,6 +188,14 @@ public class Player : MonoBehaviour {
         }
     }
 
+    private void specialAttack () {
+        //animação de ataque
+        anim.SetTrigger ("Special");
+        //logica de disparo
+        Instantiate (specialBullet, firePoint.position, firePoint.rotation);
+
+    }
+
     void FixedUpdate () {
         float h = Input.GetAxisRaw ("Horizontal");
 
@@ -194,7 +230,7 @@ public class Player : MonoBehaviour {
         if (DoubleJump && numJump == 1) {
 
             numJump = 0;
-            rb.AddForce (new Vector2 (0, jumpForce - (jumpForce *0.30f)));
+            rb.AddForce (new Vector2 (0, jumpForce - (jumpForce * 0.30f)));
             DoubleJump = false;
 
         }
@@ -223,14 +259,7 @@ public class Player : MonoBehaviour {
         facingRight = !facingRight;
 
         //pega o valor da escala do player
-        Vector3 theScale = transform.localScale;
-
-        //inverte o valor da escala em x. 
-        theScale.x *= -1;
-
-        //atualiza valor da escala
-        transform.localScale = theScale;
-
+        transform.Rotate (0f, 180f, 0f);
     }
 
     private void OnTriggerEnter2D (Collider2D other) {
