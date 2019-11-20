@@ -347,17 +347,16 @@ public class Player : MonoBehaviour {
             usingShield = true;
 
         }
+    }
 
-        void OnCollisionEnter2D (Collision2D col) {
-            if (col.gameObject.name.Equals ("Plataform"))
-                this.transform.parent = col.transform;
+    void OnCollisionEnter2D (Collision2D col) {
+        if (col.gameObject.name.Equals ("Plataform"))
+            this.transform.parent = col.transform;
 
-        }
+    }
 
-        void OnCollisionExit2D (Collision2D col) {
-            if (col.gameObject.name.Equals ("Plataform"))
-                this.transform.parent = null;
-        }
-
+    void OnCollisionExit2D (Collision2D col) {
+        if (col.gameObject.name.Equals ("Plataform"))
+            this.transform.parent = null;
     }
 }

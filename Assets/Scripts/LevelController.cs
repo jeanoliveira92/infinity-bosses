@@ -37,6 +37,7 @@ public class LevelController : MonoBehaviour {
 
     public void backToMenu () {
 
+        Time.timeScale = 1;
         SceneManager.LoadScene ("mainMenu");
 
     }
