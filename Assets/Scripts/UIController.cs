@@ -34,7 +34,11 @@ public class UIController : MonoBehaviour
     /*  ---------------------- START MENU ---------------------- */
     void Start(){
         MainCanvas.SetActive(true);
-    }    
+    }   
+
+    public void quit(){
+        Application.Quit();
+    } 
 
     IEnumerator WaitAndPLay(){
         yield return new WaitForSeconds(0.5f);

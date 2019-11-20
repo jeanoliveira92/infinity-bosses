@@ -64,6 +64,11 @@ public class Player : MonoBehaviour {
     float contEscudo;
 
     float cont = 0;
+
+    public GameObject Checkpoint;
+    float contCheckPoint;
+    bool check;
+
     void Start () {
 
         audio = GetComponent<AudioSource> ();
@@ -79,6 +84,20 @@ public class Player : MonoBehaviour {
 
     private void Update () {
 
+        if (check) {
+
+            contCheckPoint++;
+            Checkpoint.SetActive (true);
+            if (contCheckPoint >= 100) {
+
+                check = false;
+                contCheckPoint = 0;
+                Checkpoint.SetActive (false);
+            }
+        }
+
+        if (rings >= 100)
+            life = 4;
         //contador de tempo, caso esteja usando o escudo
         if (usingShield) {
             contEscudo = contEscudo + Time.deltaTime;
@@ -336,6 +355,7 @@ public class Player : MonoBehaviour {
 
         if (other.CompareTag ("CheckPoint")) {
 
+            check = true;
             spawnPoint.transform.position = other.transform.position;
 
         }

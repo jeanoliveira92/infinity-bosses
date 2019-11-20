@@ -33,6 +33,7 @@ public class bulletPlayer : MonoBehaviour
         }
 
         Instantiate (impactEffect, hitInfo.transform.position, hitInfo.transform.rotation);
+        gameObject.SetActive (false);
         Destroy (gameObject);
       
     }
@@ -40,6 +41,7 @@ public class bulletPlayer : MonoBehaviour
     void OnCollisionEnter2D (Collision2D col) {
         if (!col.gameObject.name.Equals ("Player")) {
 
+            gameObject.SetActive (false);
             Destroy (gameObject);
         }
 
