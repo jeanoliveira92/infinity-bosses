@@ -13,9 +13,12 @@ public class bulletPlayer : MonoBehaviour
     private Animator anim;
 
     public int damage;
+    public GameObject impactEffect;
 
     void Start () {
 
+        Physics2D.IgnoreLayerCollision (11, 12);
+        Physics2D.IgnoreLayerCollision (12, 15);
         rb.velocity = transform.right * speed;
         anim = gameObject.gameObject.GetComponent<Animator> ();
 
@@ -23,24 +26,23 @@ public class bulletPlayer : MonoBehaviour
 
     void OnTriggerEnter2D (Collider2D hitInfo) {
 
-       
         Enemy enemy = hitInfo.GetComponent<Enemy> ();
         if (enemy != null) {
 
             enemy.takeDamage (damage);
         }
-       
-        Destroy (gameObject);
 
+        Instantiate (impactEffect, hitInfo.transform.position, hitInfo.transform.rotation);
+        Destroy (gameObject);
+      
     }
 
     void OnCollisionEnter2D (Collision2D col) {
         if (!col.gameObject.name.Equals ("Player")) {
-           
+
             Destroy (gameObject);
         }
 
     }
-
 
 }

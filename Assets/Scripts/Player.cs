@@ -57,6 +57,12 @@ public class Player : MonoBehaviour {
     public Transform firePoint;
     public GameObject specialBullet;
 
+    //escudo
+    public GameObject shield;
+
+    bool usingShield = false;
+    float contEscudo;
+
     float cont = 0;
     void Start () {
 
@@ -72,6 +78,20 @@ public class Player : MonoBehaviour {
     }
 
     private void Update () {
+
+        //contador de tempo, caso esteja usando o escudo
+        if (usingShield) {
+            contEscudo = contEscudo + Time.deltaTime;
+            //duração de 5 segundos
+            if (contEscudo > 5) {
+
+                shield.SetActive (false);
+                usingShield = false;
+                contEscudo = 0;
+            }
+
+        }
+
         // ESTE IF BLOQUEIA O USUARIO DE MOVER ENQUANTO ESTIVER RESPAWNANDO
         if (startWalkAfterRespawn == true) {
             //variavel boleana checa a posição do groundCheck. Se ele estiver em um objeto na layer
@@ -124,13 +144,12 @@ public class Player : MonoBehaviour {
             if (Input.GetKeyDown (KeyCode.K) || Input.GetMouseButtonDown (0))
                 attack ();
 
-        //contador de tempo entre disparos. 
+            //contador de tempo entre disparos. 
             cont = cont + Time.deltaTime;
             if (Input.GetKeyDown (KeyCode.L) || Input.GetMouseButtonDown (1)) {
 
                 bool canShoot = true;
 
-                Debug.Log (cont);
                 if (cont >= 0.8f && canShoot == true) {
 
                     canShoot = true;
@@ -264,7 +283,14 @@ public class Player : MonoBehaviour {
 
     private void OnTriggerEnter2D (Collider2D other) {
         if (other.CompareTag ("Enemy")) {
-            morrer ();
+            if (usingShield) {
+
+                Destroy (other);
+            } else {
+                morrer ();
+
+            }
+
         }
 
         //coleta de items
@@ -321,6 +347,8 @@ public class Player : MonoBehaviour {
         if (other.CompareTag ("shield")) {
             other.gameObject.SetActive (false);
             Destroy (other);
+            shield.SetActive (true);
+            usingShield = true;
 
         }
 
