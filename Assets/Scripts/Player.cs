@@ -282,16 +282,12 @@ public class Player : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D (Collider2D other) {
-        if (other.CompareTag ("Enemy")) {
-            if (usingShield) {
+        if (other.CompareTag ("Enemy"))
+            if (!usingShield) {
 
-                Destroy (other);
-            } else {
                 morrer ();
 
             }
-
-        }
 
         //coleta de items
 
@@ -352,17 +348,16 @@ public class Player : MonoBehaviour {
 
         }
 
+        void OnCollisionEnter2D (Collision2D col) {
+            if (col.gameObject.name.Equals ("Plataform"))
+                this.transform.parent = col.transform;
+
+        }
+
+        void OnCollisionExit2D (Collision2D col) {
+            if (col.gameObject.name.Equals ("Plataform"))
+                this.transform.parent = null;
+        }
+
     }
-
-    void OnCollisionEnter2D (Collision2D col) {
-        if (col.gameObject.name.Equals ("Plataform"))
-            this.transform.parent = col.transform;
-
-    }
-
-    void OnCollisionExit2D (Collision2D col) {
-        if (col.gameObject.name.Equals ("Plataform"))
-            this.transform.parent = null;
-    }
-
 }
