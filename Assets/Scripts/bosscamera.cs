@@ -21,7 +21,7 @@ public class bosscamera : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other){
         if (other.CompareTag("Player")){
-            //cameraStop;
+            cameraStop.SendMessage("stop",0,SendMessageOptions.DontRequireReceiver);
             Boss.SetActive(true);
             
         }

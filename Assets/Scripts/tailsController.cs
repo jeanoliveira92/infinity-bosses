@@ -8,9 +8,6 @@ public class tailsController : Enemy
     public Transform firePoint;
     public GameObject specialBullet;
 
-    public float speed;
-    private Transform target;
-
 
     private Animator anim;
     private Rigidbody2D rb;
@@ -39,7 +36,7 @@ public class tailsController : Enemy
     private void sorteio()
     {
         //Escolhe um número de 1 a 4
-        sort = Random.Range(1, 3);
+        sort = Random.Range(1, 4);
     }
 
     IEnumerator attacks()
@@ -58,6 +55,10 @@ public class tailsController : Enemy
 
             case 2:
                 StartCoroutine("specialAttack");
+                break;
+
+            case 3:
+                jump();
                 break;
         }
         attacking = false;

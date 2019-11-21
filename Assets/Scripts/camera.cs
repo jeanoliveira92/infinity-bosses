@@ -31,4 +31,7 @@ public class camera : MonoBehaviour
         startRun = true;
 
     }
+    void stop (int i){
+        startRun = false;
+    }
 }
