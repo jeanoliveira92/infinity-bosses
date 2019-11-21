@@ -29928,7 +29928,7 @@ Camera:
   field of view: 60
   orthographic: 1
   orthographic size: 6.2420645
-  m_Depth: -1
+  m_Depth: -32
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -29957,7 +29957,7 @@ Transform:
   - {fileID: 996379284}
   - {fileID: 1106301936}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &521581660
 GameObject:
@@ -69226,7 +69226,6 @@ MonoBehaviour:
   firePoint: {fileID: 308316508}
   specialBullet: {fileID: 3320260335494516175, guid: 86ce47dbc9a1bfe49a346b5b133db9ea,
     type: 3}
-  speed: 0.3
 --- !u!50 &1162895670
 Rigidbody2D:
   serializedVersion: 4
@@ -119577,7 +119576,7 @@ RectTransform:
   - {fileID: 1053423122}
   - {fileID: 1377031474}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -131027,6 +131026,11 @@ PrefabInstance:
       propertyPath: Checkpoint
       value: 
       objectReference: {fileID: 961008713}
+    - target: {fileID: 4413326896691083234, guid: 2ebd519dd0047a942855000de75b9077,
+        type: 3}
+      propertyPath: cameraStop
+      value: 
+      objectReference: {fileID: 519420028}
     - target: {fileID: 4413326896691083235, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: m_IsTrigger

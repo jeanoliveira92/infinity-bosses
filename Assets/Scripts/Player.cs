@@ -20,6 +20,8 @@ public class Player : MonoBehaviour {
     public int life = 3;
     public int rings = 0;
     public bool gameOver = false;
+
+    public GameObject cameraStop;
     private Rigidbody2D rb;
     public Transform spawnPoint;
     //usado para ver se o personagem esta virado 
@@ -295,6 +297,7 @@ public class Player : MonoBehaviour {
     IEnumerator WaitToRunAfterRespawn () {
         yield return new WaitForSeconds (1.0f);
         startWalking = true;
+        cameraStop.SendMessage("go",SendMessageOptions.DontRequireReceiver);
 
     }
 
