@@ -20,6 +20,7 @@ TagManager:
   - shoes
   - CheckPoint
   - shield
+  - EnterBoss
   layers:
   - Default
   - TransparentFX
