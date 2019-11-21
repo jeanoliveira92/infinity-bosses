@@ -39,7 +39,7 @@ public class Player : MonoBehaviour {
     //utilizados para o ataque corpo a corpo
     public float meleerange;
     public Transform meleePivot;
-    public int meleeDamage;
+    public int meleeDamage = 2;
     //utilizados para ataque especial
     public int especial = 0;
 
@@ -343,6 +343,7 @@ public class Player : MonoBehaviour {
 
             anim.SetTrigger ("diamant");
             other.gameObject.SetActive (false);
+            meleeDamage = 3;
             Destroy (other);
 
         }
