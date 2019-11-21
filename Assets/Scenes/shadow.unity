@@ -29951,7 +29951,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.2300205, y: -0.4400009, z: -10}
+  m_LocalPosition: {x: 325.7, y: 0.74999917, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 996379284}
@@ -69226,8 +69226,7 @@ MonoBehaviour:
   firePoint: {fileID: 308316508}
   specialBullet: {fileID: 3320260335494516175, guid: 86ce47dbc9a1bfe49a346b5b133db9ea,
     type: 3}
-  speed: 0
-  followArea: 0
+  speed: 0.3
 --- !u!50 &1162895670
 Rigidbody2D:
   serializedVersion: 4
@@ -69281,7 +69280,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005437255, y: 0.008680396}
+  m_Offset: {x: -0.024718344, y: 0.008680403}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -69292,7 +69291,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.357373, y: 0.3526392}
+  m_Size: {x: 0.4176842, y: 0.3526392}
   m_EdgeRadius: 0
 --- !u!212 &1162895673
 SpriteRenderer:
@@ -69350,7 +69349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162895668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 345.27, y: -2.82, z: -0.1015625}
+  m_LocalPosition: {x: 334.71, y: -1.65, z: -0.1015625}
   m_LocalScale: {x: 3.2568748, y: 5, z: 1}
   m_Children:
   - {fileID: 308316508}
@@ -69370,7 +69369,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.059012964, y: -0.132347}
+  m_Offset: {x: 0.0019783378, y: -0.14457096}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -69381,7 +69380,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.17464185, y: 0.033980757}
+  m_Size: {x: 0.40297496, y: 0.058428705}
   m_EdgeRadius: 0
 --- !u!1 &1163709787
 GameObject:
@@ -104725,6 +104724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cameraStop: {fileID: 0}
+  Boss: {fileID: 1162895668}
 --- !u!61 &1705643581
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -130914,12 +130914,12 @@ PrefabInstance:
     - target: {fileID: 4413326896691083237, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.85
+      value: 325.98
       objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083237, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.33
+      value: -2.19
       objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083237, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
