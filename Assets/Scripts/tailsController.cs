@@ -22,8 +22,6 @@ public class tailsController : Enemy
 
         anim = gameObject.gameObject.GetComponent<Animator>();
 
-        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
-
         attacking = false;
     }
 
@@ -81,10 +79,22 @@ public class tailsController : Enemy
 
     private void jump()
     {
-        
+        int i;
+        i = Random.Range(1,3);
+        if(i == 2) i = - 1;
         //Animação de pular
         anim.SetTrigger("Jump");
-        rb.AddForce(new Vector2(200, 400));
+        rb.AddForce(new Vector2(i * 200, i * 400));
         
     }
+    /*public void takeDamage (int damage) {
+
+        health -= damage;
+        if (health <= 0) {
+            Destroy (gameObject);
+            SceneManager.LoadScene ("winner");
+        }
+        
+    }*/
+    
 }
