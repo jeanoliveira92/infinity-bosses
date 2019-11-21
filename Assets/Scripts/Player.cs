@@ -234,6 +234,12 @@ public class Player : MonoBehaviour {
 
     }
 
+     public void takeDamage (int damage) {
+
+        morrer();
+        
+    }
+
     void FixedUpdate () {
         float h = Input.GetAxisRaw ("Horizontal");
 
