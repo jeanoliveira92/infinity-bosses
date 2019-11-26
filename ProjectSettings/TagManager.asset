@@ -21,6 +21,7 @@ TagManager:
   - CheckPoint
   - shield
   - EnterBoss
+  - Firepoint
   layers:
   - Default
   - TransparentFX

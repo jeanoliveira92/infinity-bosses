@@ -16966,7 +16966,7 @@ GameObject:
   - component: {fileID: 308316508}
   m_Layer: 0
   m_Name: firePoint
-  m_TagString: Untagged
+  m_TagString: Firepoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16979,7 +16979,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 308316507}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.219, y: 0, z: 0}
+  m_LocalPosition: {x: -0.297, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1162895674}
@@ -29951,13 +29951,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 171.89, y: -10.18, z: -10}
+  m_LocalPosition: {x: 312.8, y: -0.7600002, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 996379284}
   - {fileID: 1106301936}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &521581660
 GameObject:
@@ -36603,7 +36603,7 @@ Transform:
   - {fileID: 1811284512}
   - {fileID: 1129120062}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &632576389
 GameObject:
@@ -43681,7 +43681,6 @@ MonoBehaviour:
   cam: {fileID: 996379283}
   cam2: {fileID: 1106301935}
   obstacle: {fileID: 1982869169}
-  rb: {fileID: 761654441}
 --- !u!61 &761654440
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -49821,7 +49820,6 @@ MonoBehaviour:
   cam: {fileID: 996379283}
   cam2: {fileID: 1106301935}
   obstacle: {fileID: 1494008578}
-  rb: {fileID: 841741748}
 --- !u!50 &841741748
 Rigidbody2D:
   serializedVersion: 4
@@ -69002,9 +69000,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 20
-  firePoint: {fileID: 308316508}
-  specialBullet: {fileID: 3320260335494516175, guid: 86ce47dbc9a1bfe49a346b5b133db9ea,
-    type: 3}
 --- !u!50 &1162895670
 Rigidbody2D:
   serializedVersion: 4
@@ -69127,7 +69122,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1162895668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 342.13, y: -1.65, z: -0.1015625}
+  m_LocalPosition: {x: 342, y: -1.04, z: -0}
   m_LocalScale: {x: 3.2568748, y: 5, z: 1}
   m_Children:
   - {fileID: 308316508}
@@ -70248,7 +70243,6 @@ MonoBehaviour:
   cam: {fileID: 996379283}
   cam2: {fileID: 1106301935}
   obstacle: {fileID: 1494008578}
-  rb: {fileID: 1178912676}
 --- !u!61 &1178912675
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -87310,7 +87304,7 @@ RectTransform:
   - {fileID: 882465633}
   - {fileID: 284295462}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -104517,7 +104511,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -19.033371, y: 1.3296523}
+  m_Offset: {x: -14.79895, y: 1.3296523}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -104528,7 +104522,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2620544, y: 5.665263}
+  m_Size: {x: 1.0681152, y: 5.665263}
   m_EdgeRadius: 0
 --- !u!61 &1705643582
 BoxCollider2D:
@@ -118499,7 +118493,6 @@ MonoBehaviour:
   cam: {fileID: 996379283}
   cam2: {fileID: 1106301935}
   obstacle: {fileID: 1494008578}
-  rb: {fileID: 1939416702}
 --- !u!61 &1939416701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -130694,12 +130687,12 @@ PrefabInstance:
     - target: {fileID: 4413326896691083237, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 167.49
+      value: 308.4
       objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083237, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -13.12
+      value: -3.7
       objectReference: {fileID: 0}
     - target: {fileID: 4413326896691083237, guid: 2ebd519dd0047a942855000de75b9077,
         type: 3}
