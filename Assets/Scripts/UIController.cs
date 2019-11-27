@@ -117,6 +117,6 @@ public class UIController : MonoBehaviour
     }
 
     public void enterScene(){
-        SceneManager.LoadScene(charSelected);
+        SceneManager.LoadScene("shadow");
     }
 }
