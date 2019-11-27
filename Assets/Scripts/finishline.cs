@@ -1,11 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class bosscamera : MonoBehaviour
-{   
-
-    public GameObject cameraStop;
+public class finishline : MonoBehaviour
+{
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +16,9 @@ public class bosscamera : MonoBehaviour
     {
         
     }
-
     private void OnTriggerEnter2D(Collider2D other){
         if (other.CompareTag("Player")){
-            cameraStop.SendMessage("stop",SendMessageOptions.DontRequireReceiver);            
+            SceneManager.LoadScene ("Winner");
         }
     }
 }
