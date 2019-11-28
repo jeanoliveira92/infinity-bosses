@@ -236,10 +236,10 @@ public class Player : MonoBehaviour {
 
     }
 
-     public void takeDamage (int damage) {
+    public void takeDamage (int damage) {
 
-        morrer();
-        
+        morrer ();
+
     }
 
     void FixedUpdate () {
@@ -276,7 +276,8 @@ public class Player : MonoBehaviour {
         if (DoubleJump && numJump == 1) {
 
             numJump = 0;
-            rb.AddForce (new Vector2 (0, jumpForce - (jumpForce * 0.30f)));
+            rb.velocity = Vector3.zero;
+            rb.AddForce (new Vector2 (0, jumpForce));
             DoubleJump = false;
 
         }
@@ -297,7 +298,7 @@ public class Player : MonoBehaviour {
     IEnumerator WaitToRunAfterRespawn () {
         yield return new WaitForSeconds (1.0f);
         startWalking = true;
-        cameraStop.SendMessage("go",SendMessageOptions.DontRequireReceiver);
+        cameraStop.SendMessage ("go", SendMessageOptions.DontRequireReceiver);
 
     }
 
