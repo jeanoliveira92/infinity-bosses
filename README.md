@@ -20,7 +20,7 @@ A história começa em 2023, logo após os eventos de Avengers: Endgame. Sendo a
 
 As três histórias que serão contadas de uma outra maneira serão: Avengers: Endgame, Final Fantasy VII e Sonic Adventure 2. Respectivamente, Thanos, Sephiroth e Shadow vilões dessas histórias, vão se tornar heróis de uma nova história.
 
-# Distribuição e licenças
+## Distribuição e licenças
 Todos os direitos são de suas respectivas marcas.
 Este projeto foi desenvolvido apenas para a disciplina de Desenvolvimento de Jogos. 
 Não será distribuido, seja de forma gratuita ou paga.
